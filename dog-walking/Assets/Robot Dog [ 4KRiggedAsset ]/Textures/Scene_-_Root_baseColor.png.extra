@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "18d6c568-336d-7b5a-4446-1edfd3b93bf6",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Scene_-_Root_baseColor",
+    "objGuid": "Guid(9891952760027228367, 14045325252968712845)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

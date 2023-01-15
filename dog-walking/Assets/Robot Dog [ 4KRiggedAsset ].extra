@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "3f117e7f-966e-5c2a-74ac-b953e1218290",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Robot Dog [ 4KRiggedAsset ]",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

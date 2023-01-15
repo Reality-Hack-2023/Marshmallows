@@ -1,0 +1,31 @@
+[
+  {
+    "guid": {
+      "a": "050433eb-65b0-078a-7c99-77d59c0689e4",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "Robot Dog [ 4KRiggedAsset ]",
+    "objGuid": "Guid(13350582406404192864, 14369379091876205493)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "9bfc1792-f259-879c-72a6-e1af724ac402"
+    ],
+    "meshGUIDs": [
+      "8f42f79e-4c71-1bc6-9f62-ddb7205dc289",
+      "43f4c6b8-1eb8-4fe3-483c-6120866cecea",
+      "7563791a-7f18-75cb-7211-649245441a5a",
+      "3b2bb29c-4e48-da2f-ae2f-855dd88c3193",
+      "f33bebe2-84a0-1da5-3dc2-a8b3542fec04"
+    ],
+    "animazGUIDs": [
+      "aeffccb5-503e-d8fc-86d1-64c828570f02"
+    ]
+  }
+]

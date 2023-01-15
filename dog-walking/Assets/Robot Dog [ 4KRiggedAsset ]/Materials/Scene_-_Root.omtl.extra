@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "9bfc1792-f259-879c-72a6-e1af724ac402",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Scene_-_Root",
+    "objGuid": "Guid(8017584845477809148, 11522124266170172822)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(8885429369459087823, 13288848476499911571)"
+  }
+]
