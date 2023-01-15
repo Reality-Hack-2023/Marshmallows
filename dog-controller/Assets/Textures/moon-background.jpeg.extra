@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "50cae317-ce34-2537-cea7-90994c4a71c8",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "moon-background",
+    "objGuid": "Guid(12919633657777335856, 11949745283765311130)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

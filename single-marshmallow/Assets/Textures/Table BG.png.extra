@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "b180b24e-79ba-80be-9015-aa7ae0332f78",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Table BG",
+    "objGuid": "Guid(10827279413080009826, 1676020461319393955)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

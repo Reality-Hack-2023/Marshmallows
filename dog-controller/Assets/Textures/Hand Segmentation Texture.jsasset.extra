@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "f894aae5-d358-b44c-cd41-8eff7b02e1e3",
+      "b": ""
+    },
+    "extraType": "ResItemSegmentationAsset",
+    "name": "Hand Segmentation Texture",
+    "objGuid": "Guid(17386977878539749808, 512743634368833700)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "type": "texture",
+    "subtype": "segmentation",
+    "propertyMap": [
+      {
+        "name": "cutoutTexture",
+        "guid": "00000000-0000-0000-0000-000000000024"
+      }
+    ]
+  }
+]

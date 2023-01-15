@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "998af57b-a839-af9e-6e0c-17c1de640368",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "moon-dog-controller",
+    "objGuid": "Guid(10036480063266369865, 6493771454370917011)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

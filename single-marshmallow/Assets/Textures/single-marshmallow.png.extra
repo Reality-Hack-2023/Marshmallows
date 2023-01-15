@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "5cf5b9df-f258-cc33-f31c-d1dbfa58699f",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "single-marshmallow",
+    "objGuid": "Guid(12631961414889702908, 5172694443387543231)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

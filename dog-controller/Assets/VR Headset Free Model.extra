@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "dc88f171-0ab6-f8d5-bb4c-09896c08f9f6",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "VR Headset Free Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

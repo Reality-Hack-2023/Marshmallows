@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "e74b0d8f-2317-bd73-b340-8565605caf4f",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "VR Headset Free Model",
+    "objGuid": "Guid(3120128782791376392, 17819395520428745112)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "41c2208a-7e29-b3c5-e11e-4a0c8069c811"
+    ],
+    "meshGUIDs": [
+      "0dc906e8-1558-e4bb-5145-b68a1df6d440"
+    ],
+    "animazGUIDs": []
+  }
+]

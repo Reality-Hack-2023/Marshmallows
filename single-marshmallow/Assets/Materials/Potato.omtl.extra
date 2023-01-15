@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "32f1ad40-55de-c809-3066-b6e4f16164a4",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Potato",
+    "objGuid": "Guid(14216089120837995636, 1468757641673516987)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(11983463456367238685, 12511702766623935393)"
+  }
+]

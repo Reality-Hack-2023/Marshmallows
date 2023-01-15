@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "2e365ef3-c2cd-6c89-5a3f-eed6f54231fd",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Potato",
+    "objGuid": "Guid(9964870299998875845, 13318193775191537556)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "8b541da9-3ee3-892d-036c-a63cc220bbe6",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "servo-sound",
+    "objGuid": "Guid(236151791515072337, 16485840971082239665)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

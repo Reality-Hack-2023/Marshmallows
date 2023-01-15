@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "51d91229-0343-5300-f5e4-b29e52bbf6b2",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Scene_-_Root_metallicRoughness",
+    "objGuid": "Guid(13060561903757078879, 8892678537436130975)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

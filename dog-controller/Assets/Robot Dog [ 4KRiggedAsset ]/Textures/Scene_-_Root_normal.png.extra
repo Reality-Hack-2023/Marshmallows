@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "21df1886-7e43-4cff-eb92-d8246f0da858",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Scene_-_Root_normal",
+    "objGuid": "Guid(14575829565416552797, 17697184598546367405)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]
