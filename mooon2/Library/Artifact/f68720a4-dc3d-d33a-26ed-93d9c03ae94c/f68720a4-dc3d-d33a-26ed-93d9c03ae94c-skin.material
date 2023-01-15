@@ -1,0 +1,35 @@
+%YAML 1.1
+--- !Material &1
+name: Unlit
+guid: {a: 16665522069995006140, b: 10621098050378021770}
+xshader: {localId: 1, path: f68720a4-dc3d-d33a-26ed-93d9c03ae94c--f68720a4-dc3d-d33a-26ed-93d9c03ae94c.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 10973295277675813648, b: 15644950072175202957}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 3c0e0484-d70e-f44b-3e6a-6fa1659cfc5d--3c0e0484-d70e-f44b-3e6a-6fa1659cfc5d.png}
+    _OpacityTexture: {localId: 1, path: 3c0e0484-d70e-f44b-3e6a-6fa1659cfc5d--3c0e0484-d70e-f44b-3e6a-6fa1659cfc5d.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

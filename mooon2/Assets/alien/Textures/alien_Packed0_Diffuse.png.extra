@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "d3eabaed-a288-d184-6481-a7176129761a",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "alien_Packed0_Diffuse",
+    "objGuid": "Guid(1819862551565704192, 17773817172780177536)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

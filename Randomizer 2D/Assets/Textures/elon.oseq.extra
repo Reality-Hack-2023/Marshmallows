@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "0d78c7bd-ce6d-fad8-76e1-3d42f0444621",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "elon",
+    "objGuid": "Guid(742560982802372799, 14703172377999556491)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512
+  }
+]

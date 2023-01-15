@@ -1,0 +1,35 @@
+{
+	"name": "Get Visibility",
+	"id": "cfeddcf4-f11a-8907-cb1c-d45548103bc4",
+	"inputs": [
+		{
+			"name": "Target",
+			"type": "Entity",
+			"item_type": "",
+			"description": "The Scene Object to get the visibility status",
+			"displayType": "Scene Object"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Visibility",
+			"type": "Bool",
+			"item_type": "",
+			"description": "The visibility status, true for visible, false for invisible",
+			"displayType": "Boolean"
+		}
+	],
+	"lua": "CGEntityGetVisible.lua",
+	"js": "CGEntityGetVisible.js",
+	"version": "1.1.0",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGEntityGetVisible",
+	"category": "Utility",
+	"description": "Get the visibility status of a Scene Object.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Get-Visibility"
+}

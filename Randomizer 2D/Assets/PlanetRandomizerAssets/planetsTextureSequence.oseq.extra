@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "77d119fe-eab3-da62-0b70-301957dbbf5a",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "planetsTextureSequence",
+    "objGuid": "Guid(2902861218724099570, 14131457434222955445)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512
+  }
+]

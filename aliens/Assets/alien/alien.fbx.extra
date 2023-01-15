@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "0f580fc5-582b-79db-89e4-14b6e955a9f2",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "alien",
+    "objGuid": "Guid(16089395223514237120, 7842873956528535176)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "cd65448f-4b2d-90cd-8ce2-2ca294b45345"
+    ],
+    "meshGUIDs": [
+      "2085410d-5f88-9065-6809-1ec06cbf0c2a",
+      "d566974e-ead7-2a5e-3462-c6e81aa4c246",
+      "d7bf40ff-f016-3973-b183-960afa3acef1",
+      "66c10f97-c296-cfd6-cd01-16b4b8af019d"
+    ],
+    "animazGUIDs": [
+      "eaad9118-759d-c389-8353-9e7029b8c49b"
+    ]
+  }
+]

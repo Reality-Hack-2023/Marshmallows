@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "1ef5fc6b-2bba-225d-4631-c9eb6c4192bd",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "vive-xr-elite",
+    "objGuid": "Guid(11909917534337310221, 14830442826880487333)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "173c5822-01f6-13b7-2921-9a8c6f1eca83",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "alienPackedMaterial1",
+    "objGuid": "Guid(2039325396450877193, 10774260007480860071)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(1101691533049524832, 826407003912321958)"
+  }
+]

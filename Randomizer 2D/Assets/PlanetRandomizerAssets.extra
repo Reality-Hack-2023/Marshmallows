@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "e4e12001-3c00-111d-5a68-13bcc08285dd",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "PlanetRandomizerAssets",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

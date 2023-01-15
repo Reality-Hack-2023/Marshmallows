@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "e23a76ae-697c-5d6d-2dd8-79f43f274822",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "alien_Packed0_Specular",
+    "objGuid": "Guid(17243885713035159609, 117841625106848154)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

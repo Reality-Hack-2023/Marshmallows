@@ -1,0 +1,47 @@
+%YAML 1.1
+--- !TextureCube &1
+name: ""
+guid: {a: 12920681041554044688, b: 12988415391107522727}
+width: 0
+height: 0
+depth: 0
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: false
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1
+imageProvider:
+  __class: CubeImageProvider
+  name: ""
+  guid: {a: 2976793982073924899, b: 8231119447164440983}
+  imagesUri:
+    - Library/Artifact/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee.texture.right.png
+    - Library/Artifact/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee.texture.left.png
+    - Library/Artifact/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee.texture.top.png
+    - Library/Artifact/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee.texture.bottom.png
+    - Library/Artifact/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee.texture.front.png
+    - Library/Artifact/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee/8bd43776-3cc0-c7a8-7880-53f0fd6e6bee.texture.back.png

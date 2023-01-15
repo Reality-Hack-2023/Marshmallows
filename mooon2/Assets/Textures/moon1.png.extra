@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "538dc983-7db7-6864-4d58-fddc6d976536",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "moon1",
+    "objGuid": "Guid(12342157233258100071, 7336629311168603267)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

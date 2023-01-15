@@ -1,0 +1,47 @@
+%YAML 1.1
+--- !Material &1
+name: alienPackedMaterial1
+guid: {a: 15224237832614524392, b: 11972253287576227216}
+xshader: {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 7370071177130259041, b: 7028295095362863275}
+  floatmap:
+    __class: Map
+    _AmbientIntensity: 1
+    _AmbientRotation: 0
+    _EmissiveIntensity: 0
+    _Metallic: 0
+    _NormalIntensity: 1
+    _Occlusion: 1
+    _Rotation: 0
+    _Roughness: 0.5
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+    _EmissiveColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: f345d0eb-393b-7288-725d-2de0851693e1--f345d0eb-393b-7288-725d-2de0851693e1.png}
+    _AmbientTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000020--00000000-0000-0000-0000-000000000020.png}
+    _EmissiveTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _MRAOTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _NormalTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001f--00000000-0000-0000-0000-00000000001f.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

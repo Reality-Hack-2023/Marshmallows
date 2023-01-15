@@ -1,0 +1,20 @@
+%YAML 1.1
+--- !AnimSeq &1
+name: elon
+guid: {a: 742560982802372799, b: 14703172377999556491}
+assettype:
+  __class: SeqAssetType
+  value: atlas
+assetfilename: ""
+fps: 1
+lazyload: true
+cache: false
+atlases:
+  - {localId: 1, path: 0d78c7bd-ce6d-fad8-76e1-3d42f0444621--0.imageatlas}
+  - {localId: 1, path: 0d78c7bd-ce6d-fad8-76e1-3d42f0444621--1.imageatlas}
+  - {localId: 1, path: 0d78c7bd-ce6d-fad8-76e1-3d42f0444621--2.imageatlas}
+memoryLimit: 0
+preload: false
+indexAction:
+  __class: Map
+preloadCount: 0

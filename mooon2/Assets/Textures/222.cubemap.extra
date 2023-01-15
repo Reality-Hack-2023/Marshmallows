@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "8bd43776-3cc0-c7a8-7880-53f0fd6e6bee",
+      "b": ""
+    },
+    "extraType": "ResItemCubemap",
+    "name": "222",
+    "objGuid": "Guid(12920681041554044688, 12988415391107522727)",
+    "rttiType": "TextureCube",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0
+  }
+]
