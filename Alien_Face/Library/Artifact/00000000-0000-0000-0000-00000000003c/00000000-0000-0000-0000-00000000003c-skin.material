@@ -1,0 +1,29 @@
+%YAML 1.1
+--- !Material &1
+name: FaceStretch
+guid: {a: 5168368597254306152, b: 5851326853685164981}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-00000000003c--00000000-0000-0000-0000-00000000003c.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5495331721472894873, b: 14921991584793437358}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

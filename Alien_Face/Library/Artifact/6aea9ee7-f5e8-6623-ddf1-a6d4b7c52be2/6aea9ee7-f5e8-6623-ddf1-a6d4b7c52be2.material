@@ -1,0 +1,39 @@
+%YAML 1.1
+--- !Material &1
+name: EyeColor
+guid: {a: 4687593868767815136, b: 4547256239901369018}
+xshader: {localId: 1, path: 6aea9ee7-f5e8-6623-ddf1-a6d4b7c52be2--6aea9ee7-f5e8-6623-ddf1-a6d4b7c52be2.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5309284513059362316, b: 15141732312010453385}
+  floatmap:
+    __class: Map
+    _EnableOpacity: 1
+    _EnableReflection: 1
+    _Intensity: 1
+    _Opacity: 1
+    _ReflectionIntensity: 0.800000011920929
+    _ReflectionOpacity: 1
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 0, z: 0.11444, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000063--00000000-0000-0000-0000-000000000063.png}
+    _InputTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000064--00000000-0000-0000-0000-000000000064.png}
+    _ReflectionTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000065--00000000-0000-0000-0000-000000000065.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

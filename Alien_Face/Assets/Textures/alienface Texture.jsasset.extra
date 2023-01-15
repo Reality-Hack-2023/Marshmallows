@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "1df6ecc4-33ce-aed5-bf19-2fd9a580beb3",
+      "b": ""
+    },
+    "extraType": "ResItemFaceTextureAsset",
+    "name": "alienface Texture",
+    "objGuid": "Guid(5230416508676227577, 13932346723582997918)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "type": "texture",
+    "subtype": "face",
+    "propertyMap": []
+  }
+]

@@ -1,0 +1,34 @@
+%YAML 1.1
+--- !Material &1
+name: Face Paint
+guid: {a: 5574896182345602648, b: 13742559090726467226}
+xshader: {localId: 1, path: 43ebe085-1414-9aea-2e32-088bcea43c83--43ebe085-1414-9aea-2e32-088bcea43c83.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5494114858040008833, b: 412121418459446168}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

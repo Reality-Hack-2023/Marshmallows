@@ -1,0 +1,34 @@
+%YAML 1.1
+--- !Material &1
+name: FaceMaskWhole
+guid: {a: 4692119046898910626, b: 8419276141119290528}
+xshader: {localId: 1, path: c9d3e2b7-d239-36f6-ebc1-64b7192568c1--c9d3e2b7-d239-36f6-ebc1-64b7192568c1.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 4891452730241461728, b: 12608660570380077489}
+  floatmap:
+    __class: Map
+    _EnableOpacity: 0
+    _Intensity: 1
+    _Opacity: 1
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001e--00000000-0000-0000-0000-00000000001e.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001e--00000000-0000-0000-0000-00000000001e.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

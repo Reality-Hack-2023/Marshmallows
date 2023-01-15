@@ -1,0 +1,40 @@
+%YAML 1.1
+--- !Material &1
+name: EyeColor
+guid: {a: 5227401431259595624, b: 10445252791283274136}
+xshader: {localId: 1, path: 6aea9ee7-f5e8-6623-ddf1-a6d4b7c52be2--6aea9ee7-f5e8-6623-ddf1-a6d4b7c52be2.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 4745386317249748944, b: 14974154142302018493}
+  floatmap:
+    __class: Map
+    _EnableOpacity: 1
+    _EnableReflection: 1
+    _Intensity: 1
+    _Opacity: 1
+    _ReflectionIntensity: 0.800000011920929
+    _ReflectionOpacity: 1
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 0, z: 0.11444, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000063--00000000-0000-0000-0000-000000000063.png}
+    _InputTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000064--00000000-0000-0000-0000-000000000064.png}
+    _ReflectionTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000065--00000000-0000-0000-0000-000000000065.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

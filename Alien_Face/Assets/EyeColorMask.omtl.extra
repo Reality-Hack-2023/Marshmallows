@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "be8076eb-b3ff-5497-8635-0283e020129a",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "EyeColorMask",
+    "objGuid": "Guid(5047541772264156366, 16783934768947852987)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": true,
+    "skinObjGuid": "Guid(4664777090687316673, 2643804742414063744)"
+  }
+]

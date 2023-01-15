@@ -1,0 +1,31 @@
+%YAML 1.1
+--- !Material &1
+name: EyeColorMask (1)
+guid: {a: 4955412624272209723, b: 2564186297397443980}
+xshader: {localId: 1, path: 1fbcc0d1-2049-b80f-30aa-675950bd5c05--1fbcc0d1-2049-b80f-30aa-675950bd5c05.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5398983469908567711, b: 13965008403059634309}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _MaskTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000066--00000000-0000-0000-0000-000000000066.png}
+    inputImageTexture: {localId: 1, path: share://input.texture}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

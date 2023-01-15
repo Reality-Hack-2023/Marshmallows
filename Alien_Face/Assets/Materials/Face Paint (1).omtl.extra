@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "811272dc-4a8f-0ca8-50d4-f1e53c80a393",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Face Paint (1)",
+    "objGuid": "Guid(5645426941958072453, 14798878650446577044)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5743365244730124842, 17741017564195478150)"
+  }
+]
