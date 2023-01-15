@@ -1,0 +1,3608 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 17892678610801857370, b: 559697082159424149}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: ""
+        guid: {a: 12556560734000964803, b: 7508859945702231687}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 10
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: Directional Light
+    guid: {a: 3261253174792506660, b: 16680708562180406145}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: DirectionalLight
+        name: ""
+        guid: {a: 13350271480239526722, b: 3096813384112271290}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: alien
+    guid: {a: 6719795401236212329, b: 9676657086026859402}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 4053247595821024282, b: 1071993443168501419}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+  - __class: Entity
+    name: alien:default1
+    guid: {a: 13278617939576972454, b: 9455879849892894336}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 14865077807609155140, b: 15642187376520821412}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:default1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 13709861740655080551, b: 8997527860022530206}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:Head
+              guid: {a: 9317535110168094380, b: 2298732658161724350}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -143.1157, 3.00257, 1]}
+              boundingBox: {min: {x: -7.930992, y: 0, z: 0}, max: {x: 7.932155, y: 159.9893, z: 10.77025}}
+              jointTransform: {localId: 16}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Eyelashes
+    guid: {a: 2400327806421097971, b: 9796187341747669388}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 2757569237888963072, b: 6320080247415020438}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:Eyelashes.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 7730137802815635181, b: 14700555315060054185}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:Head
+              guid: {a: 2540581877441678166, b: 14586565636925109646}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -143.1157, 3.00257, 1]}
+              boundingBox: {min: {x: -9.542185, y: 0, z: 0}, max: {x: 9.760061, y: 158.37, z: 13.05773}}
+              jointTransform: {localId: 16}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Body
+    guid: {a: 2541364831415977216, b: 17997335690076521866}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+      - __class: SkinMeshRenderer
+        name: mesh2_renderer
+        guid: {a: 7081636382143650276, b: 14898570127604920718}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:Body.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 12342034188498895920, b: 9134154316114931608}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:LeftShoulder
+              guid: {a: 8811297481030706658, b: 8178380821895580845}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.03643135, 0.9621288, -0.2701498, 0, -0.1316108, -0.272594, -0.9530851, 0, -0.9906318, 0.0008324492, 0.1365575, 0, 12.9722, 31.28807, 130.2657, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.878981}, max: {x: 34.05543, y: 138.3417, z: 6.127074}}
+              jointTransform: {localId: 18}
+            - __class: Joint
+              name: alien:LeftArm
+              guid: {a: 8813249982579214403, b: 4146782290042235815}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.06280912, 0.9979312, -0.01372219, 0, -0.1240839, -0.02145094, -0.9920399, 0, -0.9902819, -0.06060644, 0.1251745, 0, 12.42648, -14.14417, 131.0409, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.878981}, max: {x: 58.89309, y: 137.0426, z: 4.54425}}
+              jointTransform: {localId: 19}
+            - __class: Joint
+              name: alien:Spine2
+              guid: {a: 16955753756823109685, b: 13406868624246542232}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316492, 0, 0, -0.1316492, 0.9912964, 0, -0.001094818, -121.8582, -12.97476, 1]}
+              boundingBox: {min: {x: -40.64173, y: 0, z: -9.974071}, max: {x: 36.46193, y: 144.8985, z: 10.48731}}
+              jointTransform: {localId: 14}
+            - __class: Joint
+              name: alien:LeftForeArm
+              guid: {a: 11262080458715205106, b: 9771532988271167160}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.03661165, 0.9991596, 0.01843296, 0, -0.1256008, 0.02289981, -0.9918165, 0, -0.9914051, 0.03399685, 0.1263337, 0, 8.551238, -43.64064, 129.704, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.688766}, max: {x: 64.79595, y: 133.8748, z: 1}}
+              jointTransform: {localId: 20}
+            - __class: Joint
+              name: alien:LeftHand
+              guid: {a: 5494739075845785843, b: 14182476342723362226}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.0138197, 0.9930168, -0.1171607, 0, -0.1751169, -0.1177646, -0.9774792, 0, -0.9844506, 0.007008345, 0.1755215, 0, 17.99432, -41.83408, 135.9383, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.688766}, max: {x: 72.26167, y: 133.8748, z: 1}}
+              jointTransform: {localId: 21}
+            - __class: Joint
+              name: alien:LeftHandRing1
+              guid: {a: 15440701445957909963, b: 5800117115464133249}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1503427, 0.9822382, -0.112273, 0, -0.1572445, -0.1358758, -0.9781677, 0, -0.9760488, -0.129406, 0.1748795, 0, 24.34252, -51.02622, 135.7083, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.52037}, max: {x: 74.80473, y: 132.6357, z: 1}}
+              jointTransform: {localId: 30}
+            - __class: Joint
+              name: alien:LeftHandThumb1
+              guid: {a: 13207945420070603577, b: 14899172857769329335}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.445484, 0.8295551, -0.3367229, 0, -0.2096873, -0.268967, -0.9400468, 0, -0.870388, 0.4893824, 0.0541267, 0, -3.482805, -14.46971, 142.993, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -7.729728}, max: {x: 68.37392, y: 132.787, z: 1}}
+              jointTransform: {localId: 22}
+            - __class: Joint
+              name: alien:LeftHandRing2
+              guid: {a: 379083244903158802, b: 630755467769500041}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1503427, 0.9611498, -0.2314912, 0, -0.1572445, -0.2544194, -0.9542248, 0, -0.9760488, -0.10706, 0.1893856, 0, 24.3646, -36.25189, 141.1982, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.660456}, max: {x: 76.35176, y: 131.1699, z: 1}}
+              jointTransform: {localId: 31}
+            - __class: Joint
+              name: alien:LeftHandIndex1
+              guid: {a: 5855343914637613058, b: 2922230852482853804}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09964452, 0.9564839, -0.2742435, 0, -0.1874171, -0.2526404, -0.9492353, 0, -0.9772133, 0.145984, 0.1540872, 0, 14.22988, -32.61559, 142.9161, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -6.335199}, max: {x: 73.61196, y: 131.6171, z: 1}}
+              jointTransform: {localId: 26}
+            - __class: Joint
+              name: alien:LeftHandThumb2
+              guid: {a: 17098035249640810154, b: 14736801307118311060}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.445484, 0.7651697, -0.4648217, 0, -0.2096873, -0.4155716, -0.8850601, 0, -0.870388, 0.4917474, -0.02468412, 0, -3.616527, 4.816331, 144.0715, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -4.315682}, max: {x: 68.90823, y: 131.0428, z: 1.039256}}
+              jointTransform: {localId: 23}
+            - __class: Joint
+              name: alien:LeftHandThumb3
+              guid: {a: 3838267803173005446, b: 5958216545360395940}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.445484, 0.7073011, -0.5488799, 0, -0.2096873, -0.5135936, -0.8320174, 0, -0.870388, 0.4857436, -0.08048566, 0, -3.772272, 18.32755, 142.9142, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -3.561624}, max: {x: 68.90823, y: 130.3801, z: 1.039256}}
+              jointTransform: {localId: 24}
+            - __class: Joint
+              name: alien:LeftHandRing3
+              guid: {a: 2468483858137293101, b: 2502168123180850857}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1503427, 0.9637099, -0.2205908, 0, -0.1572445, -0.243596, -0.957045, 0, -0.9760488, -0.109198, 0.188161, 0, 24.37106, -39.81183, 140.7563, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.660456}, max: {x: 76.35176, y: 130.2035, z: 1}}
+              jointTransform: {localId: 32}
+            - __class: Joint
+              name: alien:LeftHandIndex2
+              guid: {a: 15799178880251058841, b: 11885612611244787885}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09964452, 0.9430057, -0.3175078, 0, -0.1874171, -0.2955971, -0.9367482, 0, -0.9772133, 0.1528482, 0.1472808, 0, 14.22639, -28.30833, 144.3547, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -3.8835}, max: {x: 75.46426, y: 130.5285, z: 1}}
+              jointTransform: {localId: 27}
+            - __class: Joint
+              name: alien:LeftHandIndex3
+              guid: {a: 15225173199326044319, b: 2206953828763689106}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09964452, 0.9801959, -0.1711346, 0, -0.1874171, -0.1504233, -0.9706944, 0, -0.9772133, 0.1287979, 0.1687166, 0, 14.21316, -51.90937, 138.0892, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -3.456603}, max: {x: 75.46426, y: 129.835, z: 1}}
+              jointTransform: {localId: 28}
+            - __class: Joint
+              name: alien:RightShoulder
+              guid: {a: 8378076290898986755, b: 6911664802752854916}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.03814333, -0.9621289, 0.269913, 0, 0.1316032, -0.2725936, -0.9530862, 0, 0.9905683, -0.0008324632, 0.1370169, 0, -12.9714, 31.28185, 130.2676, 1]}
+              boundingBox: {min: {x: -35.86703, y: 0, z: -9.974071}, max: {x: 1, y: 138.3184, z: 6.250432}}
+              jointTransform: {localId: 34}
+            - __class: Joint
+              name: alien:RightArm
+              guid: {a: 17171825194305537817, b: 6837239844233697451}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.06154664, -0.9980084, 0.01383202, 0, 0.1249303, -0.02145222, -0.9919336, 0, 0.9902547, -0.05932214, 0.1260018, 0, -12.48787, -14.13846, 131.0365, 1]}
+              boundingBox: {min: {x: -58.59668, y: 0, z: -9.974071}, max: {x: 1, y: 136.8096, z: 4.544266}}
+              jointTransform: {localId: 35}
+            - __class: Joint
+              name: alien:RightForeArm
+              guid: {a: 12560346964219210187, b: 15628634318377449648}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.03474169, -0.9992223, -0.01864649, 0, 0.1264146, 0.02290163, -0.9917131, 0, 0.9913689, 0.0320966, 0.1271119, 0, -8.73674, -43.65354, 129.6865, 1]}
+              boundingBox: {min: {x: -65.04977, y: 0, z: -9.668022}, max: {x: 1, y: 133.8685, z: 1}}
+              jointTransform: {localId: 36}
+            - __class: Joint
+              name: alien:RightHand
+              guid: {a: 17819009390044295627, b: 16103008267460222122}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.00703638, -0.9929034, 0.1187154, 0, 0.156514, -0.1183487, -0.9805595, 0, 0.9876507, 0.01168103, 0.1562361, 0, -15.11592, -41.7211, 136.3234, 1]}
+              boundingBox: {min: {x: -71.78228, y: 0, z: -9.668022}, max: {x: 1, y: 133.8685, z: 1}}
+              jointTransform: {localId: 37}
+            - __class: Joint
+              name: alien:RightHandRing1
+              guid: {a: 17820079928021586929, b: 12824787480060097416}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1387444, -0.981873, 0.1291329, 0, 0.1394233, -0.1484617, -0.9790405, 0, 0.9804648, -0.1178323, 0.1574942, 0, -21.21449, -49.18337, 136.8727, 1]}
+              boundingBox: {min: {x: -74.37962, y: 0, z: -9.629639}, max: {x: 1, y: 132.777, z: 1}}
+              jointTransform: {localId: 46}
+            - __class: Joint
+              name: alien:RightHandThumb1
+              guid: {a: 3408404298213729496, b: 13756901832117645494}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4269547, -0.8429587, 0.3273078, 0, 0.1924706, -0.2689493, -0.9437274, 0, 0.8835524, 0.4659259, 0.04741556, 0, 4.726552, -15.33717, 142.8935, 1]}
+              boundingBox: {min: {x: -67.99632, y: 0, z: -6.862052}, max: {x: 1, y: 132.36, z: 1}}
+              jointTransform: {localId: 38}
+            - __class: Joint
+              name: alien:RightHandThumb2
+              guid: {a: 10326368381927321638, b: 3478704768353292983}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4269547, -0.7704923, 0.4733406, 0, 0.1924706, -0.4340233, -0.8801016, 0, 0.8835524, 0.4668676, -0.03701118, 0, 4.823285, 6.880486, 143.9982, 1]}
+              boundingBox: {min: {x: -69.15574, y: 0, z: -6.033518}, max: {x: 1, y: 131.7688, z: 1.058781}}
+              jointTransform: {localId: 39}
+            - __class: Joint
+              name: alien:RightHandRing2
+              guid: {a: 2107877950512409276, b: 14027616842473415862}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1387444, -0.963787, 0.2277382, 0, 0.1394233, -0.2466816, -0.9590148, 0, 0.9804648, -0.1013059, 0.1686001, 0, -21.23891, -37.27988, 141.3659, 1]}
+              boundingBox: {min: {x: -76.34957, y: 0, z: -9.640146}, max: {x: 1, y: 131.1581, z: 1}}
+              jointTransform: {localId: 47}
+            - __class: Joint
+              name: alien:RightHandIndex1
+              guid: {a: 2901326674638560550, b: 11026062017540599215}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09231485, -0.9652301, 0.2445585, 0, 0.167567, -0.227045, -0.9593601, 0, 0.9815291, 0.1295431, 0.1407811, 0, -12.15089, -36.58103, 142.053, 1]}
+              boundingBox: {min: {x: -73.84183, y: 0, z: -6.310324}, max: {x: 1, y: 131.9268, z: 1}}
+              jointTransform: {localId: 42}
+            - __class: Joint
+              name: alien:RightHandIndex2
+              guid: {a: 14288194357600570661, b: 6315281515024056461}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09231485, -0.9400444, 0.3283208, 0, 0.167567, -0.3103598, -0.935734, 0, 0.9815291, 0.1413979, 0.1288696, 0, -12.16051, -26.24273, 144.9151, 1]}
+              boundingBox: {min: {x: -75.45647, y: 0, z: -4.384441}, max: {x: 1, y: 131.336, z: 1}}
+              jointTransform: {localId: 43}
+            - __class: Joint
+              name: alien:RightHandThumb3
+              guid: {a: 10827841129837908367, b: 5589107665974739871}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4269547, -0.7205626, 0.5463509, 0, 0.1924706, -0.5179302, -0.8334887, 0, 0.8835524, 0.4610183, -0.08244562, 0, 4.721592, 18.0291, 142.9205, 1]}
+              boundingBox: {min: {x: -68.9097, y: 0, z: -2.85086}, max: {x: 1, y: 129.8853, z: 1.058781}}
+              jointTransform: {localId: 40}
+            - __class: Joint
+              name: alien:RightHandRing3
+              guid: {a: 17169496585538292431, b: 3789923395047144603}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1387444, -0.9527118, 0.2703519, 0, 0.1394233, -0.2890644, -0.9471024, 0, 0.9804648, -0.09371179, 0.1729363, 0, -21.25383, -32.94818, 142.9717, 1]}
+              boundingBox: {min: {x: -76.34957, y: 0, z: -9.640146}, max: {x: 1, y: 130.431, z: 1}}
+              jointTransform: {localId: 48}
+            - __class: Joint
+              name: alien:RightHandIndex3
+              guid: {a: 16305976030887735781, b: 11531938292254562184}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09231485, -0.9613758, 0.259296, 0, 0.167567, -0.2416948, -0.9557745, 0, 0.9815291, 0.1316817, 0.1387829, 0, -12.14932, -38.80486, 142.4764, 1]}
+              boundingBox: {min: {x: -75.45647, y: 0, z: -3.572057}, max: {x: 1, y: 130.1229, z: 1}}
+              jointTransform: {localId: 44}
+            - __class: Joint
+              name: alien:LeftUpLeg
+              guid: {a: 8954306474492912565, b: 4481208167434965414}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, -0.01174626, 1e-15, 0, 0.01167631, -0.9939763, -0.1089713, 0, 0.001280005, -0.1089638, 0.9940449, 0, 6.059368, 85.7052, 8.956435, 1]}
+              boundingBox: {min: {x: -7.84895, y: 0, z: -11.7135}, max: {x: 13.51867, y: 92.25289, z: 6.968023}}
+              jointTransform: {localId: 50}
+            - __class: Joint
+              name: alien:LeftLeg
+              guid: {a: 13855245484339929077, b: 4904729680220995463}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9999299, -0.01183605, 0.0003515515, 0, 0.01177075, -0.9967723, -0.07941346, 0, 0.001290358, -0.07940375, 0.9968417, 0, 6.054988, 46.34402, 7.583886, 1]}
+              boundingBox: {min: {x: 0, y: -0.000454, z: -11.92292}, max: {x: 11.30008, y: 60.92667, z: 4.902258}}
+              jointTransform: {localId: 51}
+            - __class: Joint
+              name: alien:LeftFoot
+              guid: {a: 16955638551233958266, b: 15021438786465909658}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9903384, -0.1258631, -0.05820908, 0, 0.0226579, -0.5609887, 0.8275133, 0, -0.1368081, 0.8181993, 0.5584204, 0, 4.946066, 10.71615, -1.931386, 1]}
+              boundingBox: {min: {x: 0, y: -0.000454, z: -11.92292}, max: {x: 10.52112, y: 36.09584, z: 7.967605}}
+              jointTransform: {localId: 52}
+            - __class: Joint
+              name: alien:LeftToeBase
+              guid: {a: 4414187914116170032, b: 7312791822554274211}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9887995, -0.149248, -0.0008257385, 0, 0.004254158, -0.03371416, 0.9994225, 0, -0.1491896, 0.9882249, 0.03397147, 0, 4.987784, -2.060533, -0.854536, 1]}
+              boundingBox: {min: {x: 0, y: -0.000454, z: -11.92292}, max: {x: 10.48678, y: 35.6868, z: 7.967605}}
+              jointTransform: {localId: 53}
+            - __class: Joint
+              name: alien:Hips
+              guid: {a: 20494435597395596, b: 13141404200636916142}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001094818, -91.08688, -0.9918764, 1]}
+              boundingBox: {min: {x: -13.65238, y: 0, z: -6.638816}, max: {x: 13.51867, y: 113.1457, z: 10.54827}}
+              jointTransform: {localId: 11}
+            - __class: Joint
+              name: alien:RightUpLeg
+              guid: {a: 11334355004058216584, b: 1174159104115367819}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, 0.01174288, -1e-15, 0, -0.0116696, -0.9936907, -0.1115461, 0, -0.001309872, -0.1115384, 0.9937593, 0, -6.057489, 85.70335, 8.985096, 1]}
+              boundingBox: {min: {x: -13.65238, y: 0, z: -11.70729}, max: {x: 11.80044, y: 92.59279, z: 7.795018}}
+              jointTransform: {localId: 55}
+            - __class: Joint
+              name: alien:Spine1
+              guid: {a: 8020660677041529769, b: 11414177578177276070}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316492, 0, 0, -0.1316492, 0.9912964, 0, -0.001094818, -109.784, -12.97476, 1]}
+              boundingBox: {min: {x: -16.87356, y: 0, z: -8.01769}, max: {x: 16.87227, y: 128.2794, z: 10.54827}}
+              jointTransform: {localId: 13}
+            - __class: Joint
+              name: alien:Spine
+              guid: {a: 1389659033988740209, b: 1262854163496317323}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316491, 0, 0, -0.1316491, 0.9912964, 0, -0.001094818, -99.21912, -12.97475, 1]}
+              boundingBox: {min: {x: -13.28866, y: 0, z: -6.906618}, max: {x: 13.28881, y: 121.9493, z: 10.54827}}
+              jointTransform: {localId: 12}
+            - __class: Joint
+              name: alien:RightLeg
+              guid: {a: 8882286520199098893, b: 7969586243387544196}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.99993, 0.01182594, -0.0002626105, 0, -0.01175504, -0.9959213, -0.08945783, 0, -0.001319463, -0.08944848, 0.9959906, 0, -6.053526, 46.27326, 7.959753, 1]}
+              boundingBox: {min: {x: -10.96266, y: -0.00125, z: -11.92109}, max: {x: 1, y: 58.97597, z: 4.439122}}
+              jointTransform: {localId: 56}
+            - __class: Joint
+              name: alien:RightFoot
+              guid: {a: 2397357821825294952, b: 14487791045086325130}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.990858, 0.123755, 0.05371299, 0, -0.02369428, -0.5515926, 0.8337771, 0, 0.1328117, 0.824882, 0.5494822, 0, -4.926538, 10.93278, -1.899927, 1]}
+              boundingBox: {min: {x: -10.48419, y: -0.00125, z: -11.92109}, max: {x: 1, y: 33.81862, z: 7.963305}}
+              jointTransform: {localId: 57}
+            - __class: Joint
+              name: alien:RightToeBase
+              guid: {a: 17312621973322390610, b: 17264349927763896970}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9883409, 0.1518642, 0.01093505, 0, 0.005786091, -0.03430566, 0.9993947, 0, 0.1521474, 0.9878058, 0.03302699, 0, -4.990603, -1.989551, -0.8032159, 1]}
+              boundingBox: {min: {x: -10.44325, y: -0.00125, z: -11.92109}, max: {x: 1, y: 30.45058, z: 7.963305}}
+              jointTransform: {localId: 58}
+            - __class: Joint
+              name: alien:Head
+              guid: {a: 16664579380542299688, b: 14657080133688320158}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -143.1157, 3.00257, 1]}
+              boundingBox: {min: {x: -12.1833, y: 0, z: -14.22383}, max: {x: 12.19112, y: 178.1379, z: 15.32705}}
+              jointTransform: {localId: 16}
+            - __class: Joint
+              name: alien:Neck
+              guid: {a: 2832620441007369846, b: 16417758367870780046}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -135.9709, 4.96894, 1]}
+              boundingBox: {min: {x: -7.399506, y: 0, z: -7.252756}, max: {x: 7.367737, y: 151.342, z: 8.44277}}
+              jointTransform: {localId: 15}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Bottoms
+    guid: {a: 14502489698177701500, b: 12860179532865697712}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 10}
+      - __class: SkinMeshRenderer
+        name: mesh3_renderer
+        guid: {a: 9962580499009418431, b: 7581140961575461511}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:Bottoms.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 12052568536188338382, b: 15682307216763062969}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:Hips
+              guid: {a: 10684125545289936350, b: 3288727681743031680}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001094818, -91.08688, -0.9918764, 1]}
+              boundingBox: {min: {x: -14.2886, y: 0, z: -9.532914}, max: {x: 14.06667, y: 97.55851, z: 11.41669}}
+              jointTransform: {localId: 11}
+            - __class: Joint
+              name: alien:LeftUpLeg
+              guid: {a: 526824119263194449, b: 10124891676919874705}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, -0.01174626, 1e-15, 0, 0.01167631, -0.9939763, -0.1089713, 0, 0.001280005, -0.1089638, 0.9940449, 0, 6.059368, 85.7052, 8.956435, 1]}
+              boundingBox: {min: {x: -9.763073, y: 0, z: -9.532914}, max: {x: 14.06667, y: 91.43338, z: 11.00267}}
+              jointTransform: {localId: 50}
+            - __class: Joint
+              name: alien:RightUpLeg
+              guid: {a: 2757834727705185738, b: 12786717888094796478}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, 0.01174288, -1e-15, 0, -0.0116696, -0.9936907, -0.1115461, 0, -0.001309872, -0.1115384, 0.9937593, 0, -6.057489, 85.70335, 8.985096, 1]}
+              boundingBox: {min: {x: -14.2886, y: 0, z: -9.532914}, max: {x: 12.49618, y: 92.81474, z: 11.23996}}
+              jointTransform: {localId: 55}
+            - __class: Joint
+              name: alien:Spine
+              guid: {a: 6937545133157881708, b: 11389532442042833313}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316491, 0, 0, -0.1316491, 0.9912964, 0, -0.001094818, -99.21912, -12.97475, 1]}
+              boundingBox: {min: {x: -12.07358, y: 0, z: -5.945844}, max: {x: 10.557, y: 97.55851, z: 3.061139}}
+              jointTransform: {localId: 12}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Hips
+    guid: {a: 3983455688521983314, b: 8072934081320372643}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+    layer: 0
+  - __class: Entity
+    name: alien:Spine
+    guid: {a: 17746993521322156997, b: 14426936223840292279}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+    layer: 0
+  - __class: Entity
+    name: alien:Spine1
+    guid: {a: 17960906004382608536, b: 14596996548844826271}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+    layer: 0
+  - __class: Entity
+    name: alien:Spine2
+    guid: {a: 2254417120718193925, b: 11282512539741205423}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 14}
+    layer: 0
+  - __class: Entity
+    name: alien:Neck
+    guid: {a: 8377682940718171991, b: 13532227857691949440}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+    layer: 0
+  - __class: Entity
+    name: alien:Head
+    guid: {a: 11476818047592186995, b: 1760960800136214154}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+    layer: 0
+  - __class: Entity
+    name: alien:HeadTop_End
+    guid: {a: 6288910575380525854, b: 12636435815972204945}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftShoulder
+    guid: {a: 16161160715410705467, b: 2150841765122212266}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftArm
+    guid: {a: 3765391518906413257, b: 6973257304272148872}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 19}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftForeArm
+    guid: {a: 3189145586000225015, b: 6823625268836160152}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 20}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHand
+    guid: {a: 1171971057345082988, b: 2096970737898249127}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb1
+    guid: {a: 3622280154817908866, b: 14934331061973613731}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 22}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb2
+    guid: {a: 17459425876187285008, b: 15555308617469601667}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb3
+    guid: {a: 6434686722554285151, b: 8868129451488364430}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb4
+    guid: {a: 3192725526058775860, b: 11138953142787662765}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex1
+    guid: {a: 17241958929972977548, b: 6631514604369286807}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 26}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex2
+    guid: {a: 12199575675612620170, b: 16270623796294665646}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex3
+    guid: {a: 12488054171620648517, b: 18373814110097079171}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex4
+    guid: {a: 1967012015828339180, b: 3850819475126149518}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing1
+    guid: {a: 10254692427146517634, b: 537154318936781971}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing2
+    guid: {a: 17098237993616175261, b: 6183306561750052543}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing3
+    guid: {a: 7587580198667832951, b: 3508364218177043378}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing4
+    guid: {a: 3912126013157732431, b: 16896989810193748893}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 33}
+    layer: 0
+  - __class: Entity
+    name: alien:RightShoulder
+    guid: {a: 9891146596840509862, b: 1186322094938699199}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 34}
+    layer: 0
+  - __class: Entity
+    name: alien:RightArm
+    guid: {a: 13493933172496474558, b: 13624009419640677278}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+    layer: 0
+  - __class: Entity
+    name: alien:RightForeArm
+    guid: {a: 8451517148057453827, b: 2728739905949959815}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHand
+    guid: {a: 1679298205386595372, b: 16128864817369375627}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 37}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb1
+    guid: {a: 10971704149838996882, b: 13518400411475224508}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 38}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb2
+    guid: {a: 12846838638703537708, b: 5022257928622753954}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 39}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb3
+    guid: {a: 14213788175857335642, b: 11239149339885636276}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 40}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb4
+    guid: {a: 6503927716330014485, b: 6430261133490979225}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 41}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex1
+    guid: {a: 10181245224222031124, b: 4374534659509745082}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex2
+    guid: {a: 18195238973102781, b: 3213625583216956843}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex3
+    guid: {a: 12992659988669426278, b: 8815730572437847979}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex4
+    guid: {a: 8307007473763683266, b: 11099380589897769607}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing1
+    guid: {a: 12415256524055207361, b: 11037706952279296132}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing2
+    guid: {a: 3119259831575816058, b: 16838277677846709695}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 47}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing3
+    guid: {a: 9674710433426912145, b: 11711845151897121444}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 48}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing4
+    guid: {a: 2975010203291098975, b: 7503062539788652218}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftUpLeg
+    guid: {a: 15082219119897539011, b: 17204312662913295018}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftLeg
+    guid: {a: 12558033083977224035, b: 18264553065938337698}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftFoot
+    guid: {a: 16737132005405201423, b: 5271382154204317829}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 52}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftToeBase
+    guid: {a: 741961753796307290, b: 15018882123648117130}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 53}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftToe_End
+    guid: {a: 9530115969373766066, b: 3402281008742087062}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 54}
+    layer: 0
+  - __class: Entity
+    name: alien:RightUpLeg
+    guid: {a: 12629813863603183031, b: 16676373242530474399}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 55}
+    layer: 0
+  - __class: Entity
+    name: alien:RightLeg
+    guid: {a: 5858702220192689617, b: 11918825186495742096}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 56}
+    layer: 0
+  - __class: Entity
+    name: alien:RightFoot
+    guid: {a: 7513057955959087022, b: 11873570643171070086}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 57}
+    layer: 0
+  - __class: Entity
+    name: alien:RightToeBase
+    guid: {a: 9963286961119414486, b: 11837440572445154208}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 58}
+    layer: 0
+  - __class: Entity
+    name: alien:RightToe_End
+    guid: {a: 13060704929508025216, b: 4766799032013153978}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 59}
+    layer: 0
+  - __class: Entity
+    name: Body Avatar Drive
+    guid: {a: 12053689647356235040, b: 5985297588018739610}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 62}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 8380214298625397580, b: 5342341415468079516}
+        enabled: true
+        path: js/FullBodyAvatarDrive.js
+        properties:
+          __class: Map
+          Head: {localId: 74}
+          L_Foot: {localId: 115}
+          L_ForeArm: {localId: 94}
+          L_Hand: {localId: 95}
+          L_Shin: {localId: 114}
+          L_Shoulder: {localId: 92}
+          L_Thigh: {localId: 113}
+          L_UpperArm: {localId: 93}
+          Neck: {localId: 73}
+          Pelvis: {localId: 69}
+          R_Foot: {localId: 115}
+          R_ForeArm: {localId: 94}
+          R_Hand: {localId: 95}
+          R_Shin: {localId: 114}
+          R_Shoulder: {localId: 92}
+          R_Thigh: {localId: 113}
+          R_UpperArm: {localId: 93}
+          Spine1: {localId: 70}
+          Spine2: {localId: 71}
+          Spine3: {localId: 72}
+          followBody: false
+    layer: 0
+  - __class: Entity
+    name: alien
+    guid: {a: 9241962498686047172, b: 284108550530457515}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 63}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 15658203567493083003, b: 9555258074892468398}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 64}
+    layer: 0
+  - __class: Entity
+    name: alien:default1
+    guid: {a: 15297171737368171577, b: 17332118027528286598}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 65}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 1893054021204266916, b: 6754782019942463370}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:default1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 16521818927426122476, b: 6763718619130696892}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:Head
+              guid: {a: 6937428343730160227, b: 10656991913037545383}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -143.1157, 3.00257, 1]}
+              boundingBox: {min: {x: -7.930992, y: 0, z: 0}, max: {x: 7.932155, y: 159.9893, z: 10.77025}}
+              jointTransform: {localId: 74}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Eyelashes
+    guid: {a: 14289243694275559561, b: 5111668997386371462}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 66}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 9603664983741094665, b: 14812719529691575705}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:Eyelashes.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 7514145505947065059, b: 8430758801371829120}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:Head
+              guid: {a: 11765648500783934399, b: 6232980766404150450}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -143.1157, 3.00257, 1]}
+              boundingBox: {min: {x: -9.542185, y: 0, z: 0}, max: {x: 9.760061, y: 158.37, z: 13.05773}}
+              jointTransform: {localId: 74}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Body
+    guid: {a: 8017259232136561958, b: 3881549391111759003}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 67}
+      - __class: SkinMeshRenderer
+        name: mesh2_renderer
+        guid: {a: 13351173954673257417, b: 5999302411349506231}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:Body.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 11839411423569702939, b: 16741447717438355125}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:LeftShoulder
+              guid: {a: 3911799880652195404, b: 3367418499282082195}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.03643135, 0.9621288, -0.2701498, 0, -0.1316108, -0.272594, -0.9530851, 0, -0.9906318, 0.0008324492, 0.1365575, 0, 12.9722, 31.28807, 130.2657, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.878981}, max: {x: 34.05543, y: 138.3417, z: 6.127074}}
+              jointTransform: {localId: 76}
+            - __class: Joint
+              name: alien:LeftArm
+              guid: {a: 16595307134753457282, b: 3650900264348968874}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.06280912, 0.9979312, -0.01372219, 0, -0.1240839, -0.02145094, -0.9920399, 0, -0.9902819, -0.06060644, 0.1251745, 0, 12.42648, -14.14417, 131.0409, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.878981}, max: {x: 58.89309, y: 137.0426, z: 4.54425}}
+              jointTransform: {localId: 77}
+            - __class: Joint
+              name: alien:Spine2
+              guid: {a: 17818098545201994610, b: 17859226213715903654}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316492, 0, 0, -0.1316492, 0.9912964, 0, -0.001094818, -121.8582, -12.97476, 1]}
+              boundingBox: {min: {x: -40.64173, y: 0, z: -9.974071}, max: {x: 36.46193, y: 144.8985, z: 10.48731}}
+              jointTransform: {localId: 72}
+            - __class: Joint
+              name: alien:LeftForeArm
+              guid: {a: 10252871772737866718, b: 8256782295618316188}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.03661165, 0.9991596, 0.01843296, 0, -0.1256008, 0.02289981, -0.9918165, 0, -0.9914051, 0.03399685, 0.1263337, 0, 8.551238, -43.64064, 129.704, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.688766}, max: {x: 64.79595, y: 133.8748, z: 1}}
+              jointTransform: {localId: 78}
+            - __class: Joint
+              name: alien:LeftHand
+              guid: {a: 11115351421657043227, b: 17310041154722450358}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.0138197, 0.9930168, -0.1171607, 0, -0.1751169, -0.1177646, -0.9774792, 0, -0.9844506, 0.007008345, 0.1755215, 0, 17.99432, -41.83408, 135.9383, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.688766}, max: {x: 72.26167, y: 133.8748, z: 1}}
+              jointTransform: {localId: 79}
+            - __class: Joint
+              name: alien:LeftHandRing1
+              guid: {a: 8235924667998717697, b: 510506986156402589}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1503427, 0.9822382, -0.112273, 0, -0.1572445, -0.1358758, -0.9781677, 0, -0.9760488, -0.129406, 0.1748795, 0, 24.34252, -51.02622, 135.7083, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.52037}, max: {x: 74.80473, y: 132.6357, z: 1}}
+              jointTransform: {localId: 88}
+            - __class: Joint
+              name: alien:LeftHandThumb1
+              guid: {a: 13135770654169545135, b: 16846226982224473236}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.445484, 0.8295551, -0.3367229, 0, -0.2096873, -0.268967, -0.9400468, 0, -0.870388, 0.4893824, 0.0541267, 0, -3.482805, -14.46971, 142.993, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -7.729728}, max: {x: 68.37392, y: 132.787, z: 1}}
+              jointTransform: {localId: 80}
+            - __class: Joint
+              name: alien:LeftHandRing2
+              guid: {a: 1604139325741044088, b: 9302298255008932499}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1503427, 0.9611498, -0.2314912, 0, -0.1572445, -0.2544194, -0.9542248, 0, -0.9760488, -0.10706, 0.1893856, 0, 24.3646, -36.25189, 141.1982, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.660456}, max: {x: 76.35176, y: 131.1699, z: 1}}
+              jointTransform: {localId: 89}
+            - __class: Joint
+              name: alien:LeftHandIndex1
+              guid: {a: 10974987705152473484, b: 1188930101093337219}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09964452, 0.9564839, -0.2742435, 0, -0.1874171, -0.2526404, -0.9492353, 0, -0.9772133, 0.145984, 0.1540872, 0, 14.22988, -32.61559, 142.9161, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -6.335199}, max: {x: 73.61196, y: 131.6171, z: 1}}
+              jointTransform: {localId: 84}
+            - __class: Joint
+              name: alien:LeftHandThumb2
+              guid: {a: 10107752187813123181, b: 14137622525420203170}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.445484, 0.7651697, -0.4648217, 0, -0.2096873, -0.4155716, -0.8850601, 0, -0.870388, 0.4917474, -0.02468412, 0, -3.616527, 4.816331, 144.0715, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -4.315682}, max: {x: 68.90823, y: 131.0428, z: 1.039256}}
+              jointTransform: {localId: 81}
+            - __class: Joint
+              name: alien:LeftHandThumb3
+              guid: {a: 595415543315270886, b: 15920932314322784384}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.445484, 0.7073011, -0.5488799, 0, -0.2096873, -0.5135936, -0.8320174, 0, -0.870388, 0.4857436, -0.08048566, 0, -3.772272, 18.32755, 142.9142, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -3.561624}, max: {x: 68.90823, y: 130.3801, z: 1.039256}}
+              jointTransform: {localId: 82}
+            - __class: Joint
+              name: alien:LeftHandRing3
+              guid: {a: 17963206891113685505, b: 3005667811232953508}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1503427, 0.9637099, -0.2205908, 0, -0.1572445, -0.243596, -0.957045, 0, -0.9760488, -0.109198, 0.188161, 0, 24.37106, -39.81183, 140.7563, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -9.660456}, max: {x: 76.35176, y: 130.2035, z: 1}}
+              jointTransform: {localId: 90}
+            - __class: Joint
+              name: alien:LeftHandIndex2
+              guid: {a: 14285978203547621182, b: 2413503600024784788}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09964452, 0.9430057, -0.3175078, 0, -0.1874171, -0.2955971, -0.9367482, 0, -0.9772133, 0.1528482, 0.1472808, 0, 14.22639, -28.30833, 144.3547, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -3.8835}, max: {x: 75.46426, y: 130.5285, z: 1}}
+              jointTransform: {localId: 85}
+            - __class: Joint
+              name: alien:LeftHandIndex3
+              guid: {a: 13709775557230239464, b: 7698236630651782311}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09964452, 0.9801959, -0.1711346, 0, -0.1874171, -0.1504233, -0.9706944, 0, -0.9772133, 0.1287979, 0.1687166, 0, 14.21316, -51.90937, 138.0892, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -3.456603}, max: {x: 75.46426, y: 129.835, z: 1}}
+              jointTransform: {localId: 86}
+            - __class: Joint
+              name: alien:RightShoulder
+              guid: {a: 6289398563809826928, b: 16856737915715587499}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.03814333, -0.9621289, 0.269913, 0, 0.1316032, -0.2725936, -0.9530862, 0, 0.9905683, -0.0008324632, 0.1370169, 0, -12.9714, 31.28185, 130.2676, 1]}
+              boundingBox: {min: {x: -35.86703, y: 0, z: -9.974071}, max: {x: 1, y: 138.3184, z: 6.250432}}
+              jointTransform: {localId: 92}
+            - __class: Joint
+              name: alien:RightArm
+              guid: {a: 16451251263139553310, b: 292336787785287575}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.06154664, -0.9980084, 0.01383202, 0, 0.1249303, -0.02145222, -0.9919336, 0, 0.9902547, -0.05932214, 0.1260018, 0, -12.48787, -14.13846, 131.0365, 1]}
+              boundingBox: {min: {x: -58.59668, y: 0, z: -9.974071}, max: {x: 1, y: 136.8096, z: 4.544266}}
+              jointTransform: {localId: 93}
+            - __class: Joint
+              name: alien:RightForeArm
+              guid: {a: 18252144229379405071, b: 8456565419219967628}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.03474169, -0.9992223, -0.01864649, 0, 0.1264146, 0.02290163, -0.9917131, 0, 0.9913689, 0.0320966, 0.1271119, 0, -8.73674, -43.65354, 129.6865, 1]}
+              boundingBox: {min: {x: -65.04977, y: 0, z: -9.668022}, max: {x: 1, y: 133.8685, z: 1}}
+              jointTransform: {localId: 94}
+            - __class: Joint
+              name: alien:RightHand
+              guid: {a: 8955005011957763378, b: 4898308055346386339}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.00703638, -0.9929034, 0.1187154, 0, 0.156514, -0.1183487, -0.9805595, 0, 0.9876507, 0.01168103, 0.1562361, 0, -15.11592, -41.7211, 136.3234, 1]}
+              boundingBox: {min: {x: -71.78228, y: 0, z: -9.668022}, max: {x: 1, y: 133.8685, z: 1}}
+              jointTransform: {localId: 95}
+            - __class: Joint
+              name: alien:RightHandRing1
+              guid: {a: 12196211104409711502, b: 127117091239811217}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1387444, -0.981873, 0.1291329, 0, 0.1394233, -0.1484617, -0.9790405, 0, 0.9804648, -0.1178323, 0.1574942, 0, -21.21449, -49.18337, 136.8727, 1]}
+              boundingBox: {min: {x: -74.37962, y: 0, z: -9.629639}, max: {x: 1, y: 132.777, z: 1}}
+              jointTransform: {localId: 104}
+            - __class: Joint
+              name: alien:RightHandThumb1
+              guid: {a: 8161846742632230587, b: 4676691866554165150}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4269547, -0.8429587, 0.3273078, 0, 0.1924706, -0.2689493, -0.9437274, 0, 0.8835524, 0.4659259, 0.04741556, 0, 4.726552, -15.33717, 142.8935, 1]}
+              boundingBox: {min: {x: -67.99632, y: 0, z: -6.862052}, max: {x: 1, y: 132.36, z: 1}}
+              jointTransform: {localId: 96}
+            - __class: Joint
+              name: alien:RightHandThumb2
+              guid: {a: 16665362419632723604, b: 12475475290685000872}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4269547, -0.7704923, 0.4733406, 0, 0.1924706, -0.4340233, -0.8801016, 0, 0.8835524, 0.4668676, -0.03701118, 0, 4.823285, 6.880486, 143.9982, 1]}
+              boundingBox: {min: {x: -69.15574, y: 0, z: -6.033518}, max: {x: 1, y: 131.7688, z: 1.058781}}
+              jointTransform: {localId: 97}
+            - __class: Joint
+              name: alien:RightHandRing2
+              guid: {a: 14865601010868870280, b: 14842832576899450004}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1387444, -0.963787, 0.2277382, 0, 0.1394233, -0.2466816, -0.9590148, 0, 0.9804648, -0.1013059, 0.1686001, 0, -21.23891, -37.27988, 141.3659, 1]}
+              boundingBox: {min: {x: -76.34957, y: 0, z: -9.640146}, max: {x: 1, y: 131.1581, z: 1}}
+              jointTransform: {localId: 105}
+            - __class: Joint
+              name: alien:RightHandIndex1
+              guid: {a: 9025851053763321834, b: 14801675527546241202}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09231485, -0.9652301, 0.2445585, 0, 0.167567, -0.227045, -0.9593601, 0, 0.9815291, 0.1295431, 0.1407811, 0, -12.15089, -36.58103, 142.053, 1]}
+              boundingBox: {min: {x: -73.84183, y: 0, z: -6.310324}, max: {x: 1, y: 131.9268, z: 1}}
+              jointTransform: {localId: 100}
+            - __class: Joint
+              name: alien:RightHandIndex2
+              guid: {a: 2471862027050723988, b: 9665316854849730487}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09231485, -0.9400444, 0.3283208, 0, 0.167567, -0.3103598, -0.935734, 0, 0.9815291, 0.1413979, 0.1288696, 0, -12.16051, -26.24273, 144.9151, 1]}
+              boundingBox: {min: {x: -75.45647, y: 0, z: -4.384441}, max: {x: 1, y: 131.336, z: 1}}
+              jointTransform: {localId: 101}
+            - __class: Joint
+              name: alien:RightHandThumb3
+              guid: {a: 9605454342638402032, b: 14833796971434603198}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4269547, -0.7205626, 0.5463509, 0, 0.1924706, -0.5179302, -0.8334887, 0, 0.8835524, 0.4610183, -0.08244562, 0, 4.721592, 18.0291, 142.9205, 1]}
+              boundingBox: {min: {x: -68.9097, y: 0, z: -2.85086}, max: {x: 1, y: 129.8853, z: 1.058781}}
+              jointTransform: {localId: 98}
+            - __class: Joint
+              name: alien:RightHandRing3
+              guid: {a: 14502095749070496659, b: 17219653985995978645}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1387444, -0.9527118, 0.2703519, 0, 0.1394233, -0.2890644, -0.9471024, 0, 0.9804648, -0.09371179, 0.1729363, 0, -21.25383, -32.94818, 142.9717, 1]}
+              boundingBox: {min: {x: -76.34957, y: 0, z: -9.640146}, max: {x: 1, y: 130.431, z: 1}}
+              jointTransform: {localId: 106}
+            - __class: Joint
+              name: alien:RightHandIndex3
+              guid: {a: 1099895596318212841, b: 16994840560441446822}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.09231485, -0.9613758, 0.259296, 0, 0.167567, -0.2416948, -0.9557745, 0, 0.9815291, 0.1316817, 0.1387829, 0, -12.14932, -38.80486, 142.4764, 1]}
+              boundingBox: {min: {x: -75.45647, y: 0, z: -3.572057}, max: {x: 1, y: 130.1229, z: 1}}
+              jointTransform: {localId: 102}
+            - __class: Joint
+              name: alien:LeftUpLeg
+              guid: {a: 9316941607559789838, b: 8885225250308697513}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, -0.01174626, 1e-15, 0, 0.01167631, -0.9939763, -0.1089713, 0, 0.001280005, -0.1089638, 0.9940449, 0, 6.059368, 85.7052, 8.956435, 1]}
+              boundingBox: {min: {x: -7.84895, y: 0, z: -11.7135}, max: {x: 13.51867, y: 92.25289, z: 6.968023}}
+              jointTransform: {localId: 108}
+            - __class: Joint
+              name: alien:LeftLeg
+              guid: {a: 9530232885673748008, b: 6974506395342059911}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9999299, -0.01183605, 0.0003515515, 0, 0.01177075, -0.9967723, -0.07941346, 0, 0.001290358, -0.07940375, 0.9968417, 0, 6.054988, 46.34402, 7.583886, 1]}
+              boundingBox: {min: {x: 0, y: -0.000454, z: -11.92292}, max: {x: 11.30008, y: 60.92667, z: 4.902258}}
+              jointTransform: {localId: 109}
+            - __class: Joint
+              name: alien:LeftFoot
+              guid: {a: 10539933906941786631, b: 2791658448029236894}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9903384, -0.1258631, -0.05820908, 0, 0.0226579, -0.5609887, 0.8275133, 0, -0.1368081, 0.8181993, 0.5584204, 0, 4.946066, 10.71615, -1.931386, 1]}
+              boundingBox: {min: {x: 0, y: -0.000454, z: -11.92292}, max: {x: 10.52112, y: 36.09584, z: 7.967605}}
+              jointTransform: {localId: 110}
+            - __class: Joint
+              name: alien:LeftToeBase
+              guid: {a: 10181362628833633069, b: 5402229176993709485}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9887995, -0.149248, -0.0008257385, 0, 0.004254158, -0.03371416, 0.9994225, 0, -0.1491896, 0.9882249, 0.03397147, 0, 4.987784, -2.060533, -0.854536, 1]}
+              boundingBox: {min: {x: 0, y: -0.000454, z: -11.92292}, max: {x: 10.48678, y: 35.6868, z: 7.967605}}
+              jointTransform: {localId: 111}
+            - __class: Joint
+              name: alien:Hips
+              guid: {a: 11908246150985897780, b: 16589110794943775399}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001094818, -91.08688, -0.9918764, 1]}
+              boundingBox: {min: {x: -13.65238, y: 0, z: -6.638816}, max: {x: 13.51867, y: 113.1457, z: 10.54827}}
+              jointTransform: {localId: 69}
+            - __class: Joint
+              name: alien:RightUpLeg
+              guid: {a: 3406704607310197896, b: 7846932281366062465}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, 0.01174288, -1e-15, 0, -0.0116696, -0.9936907, -0.1115461, 0, -0.001309872, -0.1115384, 0.9937593, 0, -6.057489, 85.70335, 8.985096, 1]}
+              boundingBox: {min: {x: -13.65238, y: 0, z: -11.70729}, max: {x: 11.80044, y: 92.59279, z: 7.795018}}
+              jointTransform: {localId: 113}
+            - __class: Joint
+              name: alien:Spine1
+              guid: {a: 7803540863178246724, b: 13176235073235730847}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316492, 0, 0, -0.1316492, 0.9912964, 0, -0.001094818, -109.784, -12.97476, 1]}
+              boundingBox: {min: {x: -16.87356, y: 0, z: -8.01769}, max: {x: 16.87227, y: 128.2794, z: 10.54827}}
+              jointTransform: {localId: 71}
+            - __class: Joint
+              name: alien:Spine
+              guid: {a: 7371153532753385124, b: 5181757176670609289}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316491, 0, 0, -0.1316491, 0.9912964, 0, -0.001094818, -99.21912, -12.97475, 1]}
+              boundingBox: {min: {x: -13.28866, y: 0, z: -6.906618}, max: {x: 13.28881, y: 121.9493, z: 10.54827}}
+              jointTransform: {localId: 70}
+            - __class: Joint
+              name: alien:RightLeg
+              guid: {a: 4487630109296820846, b: 17747474861216021677}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.99993, 0.01182594, -0.0002626105, 0, -0.01175504, -0.9959213, -0.08945783, 0, -0.001319463, -0.08944848, 0.9959906, 0, -6.053526, 46.27326, 7.959753, 1]}
+              boundingBox: {min: {x: -10.96266, y: -0.00125, z: -11.92109}, max: {x: 1, y: 58.97597, z: 4.439122}}
+              jointTransform: {localId: 114}
+            - __class: Joint
+              name: alien:RightFoot
+              guid: {a: 17890206316509866629, b: 8586204875060529557}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.990858, 0.123755, 0.05371299, 0, -0.02369428, -0.5515926, 0.8337771, 0, 0.1328117, 0.824882, 0.5494822, 0, -4.926538, 10.93278, -1.899927, 1]}
+              boundingBox: {min: {x: -10.48419, y: -0.00125, z: -11.92109}, max: {x: 1, y: 33.81862, z: 7.963305}}
+              jointTransform: {localId: 115}
+            - __class: Joint
+              name: alien:RightToeBase
+              guid: {a: 15082070027265486291, b: 14259668116633321901}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9883409, 0.1518642, 0.01093505, 0, 0.005786091, -0.03430566, 0.9993947, 0, 0.1521474, 0.9878058, 0.03302699, 0, -4.990603, -1.989551, -0.8032159, 1]}
+              boundingBox: {min: {x: -10.44325, y: -0.00125, z: -11.92109}, max: {x: 1, y: 30.45058, z: 7.963305}}
+              jointTransform: {localId: 116}
+            - __class: Joint
+              name: alien:Head
+              guid: {a: 14793114224199728016, b: 621297110559062678}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -143.1157, 3.00257, 1]}
+              boundingBox: {min: {x: -12.1833, y: 0, z: -14.22383}, max: {x: 12.19112, y: 178.1379, z: 15.32705}}
+              jointTransform: {localId: 74}
+            - __class: Joint
+              name: alien:Neck
+              guid: {a: 16591935997527110825, b: 17451352940288281518}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 1e-15, 0, 0, -1e-15, 1, 0, -0.001094818, -135.9709, 4.96894, 1]}
+              boundingBox: {min: {x: -7.399506, y: 0, z: -7.252756}, max: {x: 7.367737, y: 151.342, z: 8.44277}}
+              jointTransform: {localId: 73}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Bottoms
+    guid: {a: 17384164667312122413, b: 5967392232234368683}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 68}
+      - __class: SkinMeshRenderer
+        name: mesh3_renderer
+        guid: {a: 8957530802724130053, b: 16274737646855298186}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: cd65448f-4b2d-90cd-8ce2-2ca294b45345--cd65448f-4b2d-90cd-8ce2-2ca294b45345-skin.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f580fc5-582b-79db-89e4-14b6e955a9f2--alien:Bottoms.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 13423207511613597382, b: 3768422592859548340}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: alien:Hips
+              guid: {a: 15586059174598152479, b: 18291567954801561521}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001094818, -91.08688, -0.9918764, 1]}
+              boundingBox: {min: {x: -14.2886, y: 0, z: -9.532914}, max: {x: 14.06667, y: 97.55851, z: 11.41669}}
+              jointTransform: {localId: 69}
+            - __class: Joint
+              name: alien:LeftUpLeg
+              guid: {a: 11478924783047849160, b: 4424843117964853415}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, -0.01174626, 1e-15, 0, 0.01167631, -0.9939763, -0.1089713, 0, 0.001280005, -0.1089638, 0.9940449, 0, 6.059368, 85.7052, 8.956435, 1]}
+              boundingBox: {min: {x: -9.763073, y: 0, z: -9.532914}, max: {x: 14.06667, y: 91.43338, z: 11.00267}}
+              jointTransform: {localId: 108}
+            - __class: Joint
+              name: alien:RightUpLeg
+              guid: {a: 7082268428469756357, b: 12838540826629187245}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.999931, 0.01174288, -1e-15, 0, -0.0116696, -0.9936907, -0.1115461, 0, -0.001309872, -0.1115384, 0.9937593, 0, -6.057489, 85.70335, 8.985096, 1]}
+              boundingBox: {min: {x: -14.2886, y: 0, z: -9.532914}, max: {x: 12.49618, y: 92.81474, z: 11.23996}}
+              jointTransform: {localId: 113}
+            - __class: Joint
+              name: alien:Spine
+              guid: {a: 14935554914241216245, b: 1434716787327186858}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9912964, 0.1316491, 0, 0, -0.1316491, 0.9912964, 0, -0.001094818, -99.21912, -12.97475, 1]}
+              boundingBox: {min: {x: -12.07358, y: 0, z: -5.945844}, max: {x: 10.557, y: 97.55851, z: 3.061139}}
+              jointTransform: {localId: 70}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: alien:Hips
+    guid: {a: 15442436417940545017, b: 8008963148155486388}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 69}
+    layer: 0
+  - __class: Entity
+    name: alien:Spine
+    guid: {a: 8595577090675813578, b: 10406434080109066414}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 70}
+    layer: 0
+  - __class: Entity
+    name: alien:Spine1
+    guid: {a: 1678765590568565096, b: 16001779464555077022}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 71}
+    layer: 0
+  - __class: Entity
+    name: alien:Spine2
+    guid: {a: 5208670359152453744, b: 9103154751377571997}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 72}
+    layer: 0
+  - __class: Entity
+    name: alien:Neck
+    guid: {a: 14000484740122398506, b: 7485480486422999734}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 73}
+    layer: 0
+  - __class: Entity
+    name: alien:Head
+    guid: {a: 15296784901322988015, b: 14788521467179163787}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 74}
+    layer: 0
+  - __class: Entity
+    name: alien:HeadTop_End
+    guid: {a: 7586410762480713904, b: 14647558973801239207}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 75}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftShoulder
+    guid: {a: 12989332277226247962, b: 6223514436082847394}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 76}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftArm
+    guid: {a: 7657749090926227810, b: 7377539554343684485}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 77}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftForeArm
+    guid: {a: 2468885287533988630, b: 13181316611803900584}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 78}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHand
+    guid: {a: 17674055042256220754, b: 11644259682637939084}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 79}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb1
+    guid: {a: 3476991714903844474, b: 11610305429720160132}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 80}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb2
+    guid: {a: 7080159796156867426, b: 13890573039983555204}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 81}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb3
+    guid: {a: 10756708472353312835, b: 7614338947698067612}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 82}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandThumb4
+    guid: {a: 3695428883312236610, b: 7599094869468787609}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 83}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex1
+    guid: {a: 16088177060008795673, b: 14478489881375580853}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 84}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex2
+    guid: {a: 12989665697688668676, b: 566707508214998426}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 85}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex3
+    guid: {a: 1246909435239066389, b: 644727702881027472}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 86}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandIndex4
+    guid: {a: 13782342775563668869, b: 446213984420901265}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 87}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing1
+    guid: {a: 12774412626478714254, b: 17659819665271779000}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 88}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing2
+    guid: {a: 15512341023220682184, b: 580958243972702652}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 89}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing3
+    guid: {a: 885475049707564701, b: 17327887619014744761}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 90}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftHandRing4
+    guid: {a: 11693770989062614193, b: 3385528332390529408}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 91}
+    layer: 0
+  - __class: Entity
+    name: alien:RightShoulder
+    guid: {a: 6648997036908325789, b: 4216082152449145987}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 92}
+    layer: 0
+  - __class: Entity
+    name: alien:RightArm
+    guid: {a: 9172227398224402649, b: 2111409492377926817}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 93}
+    layer: 0
+  - __class: Entity
+    name: alien:RightForeArm
+    guid: {a: 17744804376717289672, b: 3547067983349392282}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 94}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHand
+    guid: {a: 18252860474683571995, b: 7671449873832789663}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 95}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb1
+    guid: {a: 17171041755603706209, b: 11032246765386639779}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 96}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb2
+    guid: {a: 14506059965420146946, b: 4768127799707815849}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 97}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb3
+    guid: {a: 2183342930244899445, b: 11468182384617603201}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 98}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandThumb4
+    guid: {a: 12053534545247180873, b: 10737315394365870259}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 99}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex1
+    guid: {a: 1026882955216714588, b: 17354787582225280674}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 100}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex2
+    guid: {a: 9962061265861803200, b: 5204510892572778663}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 101}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex3
+    guid: {a: 1895472791537626042, b: 17879898177010602430}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 102}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandIndex4
+    guid: {a: 18180337542580282288, b: 14140026255943408308}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 103}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing1
+    guid: {a: 16664986171624051124, b: 8874558906955257243}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 104}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing2
+    guid: {a: 2252388409082104869, b: 16303391251278926782}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 105}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing3
+    guid: {a: 6432601781192071240, b: 13848164167042633407}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 106}
+    layer: 0
+  - __class: Entity
+    name: alien:RightHandRing4
+    guid: {a: 11693193343392954081, b: 16455903266490633642}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 107}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftUpLeg
+    guid: {a: 15078054932357348503, b: 2599089022503479730}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 108}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftLeg
+    guid: {a: 4559685846259293860, b: 13081654570739031181}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 109}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftFoot
+    guid: {a: 8812150532116752642, b: 726760531835748002}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 110}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftToeBase
+    guid: {a: 15512640005608414180, b: 18395762349374699401}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 111}
+    layer: 0
+  - __class: Entity
+    name: alien:LeftToe_End
+    guid: {a: 15946301444916360076, b: 14710164290291682463}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 112}
+    layer: 0
+  - __class: Entity
+    name: alien:RightUpLeg
+    guid: {a: 16738996800081521527, b: 11895444970069438382}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 113}
+    layer: 0
+  - __class: Entity
+    name: alien:RightLeg
+    guid: {a: 12918957191195877223, b: 10223927026936567966}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 114}
+    layer: 0
+  - __class: Entity
+    name: alien:RightFoot
+    guid: {a: 8954031257979828238, b: 10771433921151115917}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 115}
+    layer: 0
+  - __class: Entity
+    name: alien:RightToeBase
+    guid: {a: 11839114971394519879, b: 18227924392022730676}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 116}
+    layer: 0
+  - __class: Entity
+    name: alien:RightToe_End
+    guid: {a: 670474121699125647, b: 16676165822019505294}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 117}
+    layer: 0
+  - __class: Entity
+    name: 2D Background Camera
+    guid: {a: 164321403314335662, b: 11038152012456196774}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 118}
+      - __class: Camera
+        name: ""
+        guid: {a: 12198289250622523900, b: 14174147363452025522}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [4, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 2
+  - __class: Entity
+    name: Body Avatar Drive
+    guid: {a: 5712419619809149016, b: 15201776413944657546}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 2902986579907608330, b: 15189895182564791724}
+        enabled: true
+        path: js/FullBodyAvatarDrive.js
+        properties:
+          __class: Map
+          Head: {localId: 16}
+          L_Foot: {localId: 52}
+          L_ForeArm: {localId: 20}
+          L_Hand: {localId: 21}
+          L_Shin: {localId: 51}
+          L_Shoulder: {localId: 18}
+          L_Thigh: {localId: 50}
+          L_UpperArm: {localId: 19}
+          Neck: {localId: 15}
+          Pelvis: {localId: 11}
+          R_Foot: {localId: 57}
+          R_ForeArm: {localId: 36}
+          R_Hand: {localId: 37}
+          R_Shin: {localId: 56}
+          R_Shoulder: {localId: 34}
+          R_Thigh: {localId: 55}
+          R_UpperArm: {localId: 35}
+          Spine1: {localId: 12}
+          Spine2: {localId: 13}
+          Spine3: {localId: 14}
+          followBody: true
+    layer: 0
+  - __class: Entity
+    name: Portrait Segmentation
+    guid: {a: 1531934391202528963, b: 10662715334281004199}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 119}
+    layer: 2
+  - __class: Entity
+    name: Portrait
+    guid: {a: 14073724677138115121, b: 6669151430953156998}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 121}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 4634149552085787000, b: 11386053829903218864}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: custom://e847d616-b5ff-3239-e63a-abf459f824dd}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 2
+  - __class: Entity
+    name: Background
+    guid: {a: 4630787993205735568, b: 17082118740624907444}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 122}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 3623551118261372117, b: 11386836304083756218}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-000000000024--00000000-0000-0000-0000-000000000024.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 288
+        ellipseY: 512
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 2
+  - __class: Entity
+    name: Head Tracker
+    guid: {a: 3191139019469129187, b: 4230599372793107605}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 60}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 957541955641711829, b: 15997305499845450888}
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Segmentation Canvas
+    guid: {a: 1103257308699240777, b: 242311086638089892}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 120}
+      - __class: IFLayer2d
+        name: ""
+        guid: {a: 8380825109325789027, b: 12806347426844518577}
+        enabled: true
+        sortingOrder: 9
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        renderOrderMode:
+          __class: IFLayer2dRenderOrderMode
+          value: SceneCustom
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        blendAlpha: 1
+        blendAlphaCkeck: true
+        drawCallNum: 2
+        maskType:
+          __class: IFMaskType
+          value: None
+        inverted: false
+        scissorRectMask: false
+        updateFlag: false
+        updateSortFlag: false
+      - __class: IFCanvas2d
+        name: ""
+        guid: {a: 5426505525445857388, b: 11231934919063471498}
+        enabled: true
+        resolutionType:
+          __class: IFResolutionType
+          value: FitHeight
+        resolutionSize: {x: 720, y: 1280}
+    layer: 2
+  - __class: Entity
+    name: Head
+    guid: {a: 18250265249093537254, b: 8216592379782090146}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 61}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 7226683280180709338, b: 13377471179805580930}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: NONE
+jsScriptSystems:
+  - js/GraphSystem.js
+  - js/EditorInjectSystem.js
+  - js/Main.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+--- !Transform &2
+name: ""
+guid: {a: 1029434961439008335, b: 6372224128272086966}
+enabled: true
+localPosition: {x: 0, y: 0, z: 134.1274}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 10827949423485651365, b: 543587625606924957}
+enabled: true
+localPosition: {x: -30, y: 20, z: -20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 5135771350632939609, b: 9350216249988011959}
+enabled: true
+localPosition: {x: 0, y: -162.325, z: -1}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9981349, x: 0, y: -0.06104855, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ""
+guid: {a: 596948312086404816, b: 8089095539350818951}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: SkeletonAndRenderRoot
+guid: {a: 1245574345699624311, b: 14285666281307486391}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+children:
+  - {localId: 7}
+  - {localId: 8}
+  - {localId: 9}
+  - {localId: 10}
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: alien:default1
+guid: {a: 11693719126372062501, b: 11753718302739416985}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: alien:Eyelashes
+guid: {a: 8811116384729259576, b: 1646422194213529233}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: alien:Body
+guid: {a: 11838418617445944616, b: 14449844741793060286}
+enabled: true
+localPosition: {x: 0, y: -110.1242, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: alien:Bottoms
+guid: {a: 10900780562236641659, b: 4318029191757802139}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: alien:Hips
+guid: {a: 17385770162298525885, b: 8215631864005022641}
+enabled: true
+localPosition: {x: 0.006362747, y: 91.40227, z: 0.4311092}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9999998, x: -9.073474e-06, y: 1.968065e-05, z: -0.0006594751}
+parent: {localId: 6}
+children:
+  - {localId: 12}
+  - {localId: 50}
+  - {localId: 55}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: alien:Spine
+guid: {a: 14578024609706593054, b: 1264881273650597022}
+enabled: true
+localPosition: {x: 0, y: 8.976791, z: -1.192163}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9978221, x: -0.06595916, y: -6.31422e-05, z: 0.00065674}
+parent: {localId: 11}
+children:
+  - {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: alien:Spine1
+guid: {a: 6647350994130767586, b: 4606106652804282509}
+enabled: true
+localPosition: {x: 0, y: 10.56488, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -7.479926e-08, y: 1.320616e-13, z: -6.705716e-13}
+parent: {localId: 12}
+children:
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: alien:Spine2
+guid: {a: 2832576759087566538, b: 17916081120321686160}
+enabled: true
+localPosition: {x: 0, y: 12.07414, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: -0, z: -1e-15}
+parent: {localId: 13}
+children:
+  - {localId: 15}
+  - {localId: 18}
+  - {localId: 34}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: alien:Neck
+guid: {a: 1387822709380855458, b: 7254129676742008221}
+enabled: true
+localPosition: {x: 0, y: 13.58342, z: 1.787292e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9978217, x: 0.0659683, y: 1e-15, z: -1e-15}
+parent: {localId: 14}
+children:
+  - {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: alien:Head
+guid: {a: 15944027219699561401, b: 13597442243693536152}
+enabled: true
+localPosition: {x: 0, y: 7.144882, z: 1.96637}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 1e-15}
+parent: {localId: 15}
+children:
+  - {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: alien:HeadTop_End
+guid: {a: 15367521869519638997, b: 9721058458533784195}
+enabled: true
+localPosition: {x: 0, y: 33.74763, z: 9.287814}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: alien:LeftShoulder
+guid: {a: 7874664771314728098, b: 2177446149089934009}
+enabled: true
+localPosition: {x: 5.55961, y: 12.01622, z: -0.2032723}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.4194717, x: -0.5530564, y: -0.4349625, z: 0.5735676}
+parent: {localId: 14}
+children:
+  - {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: alien:LeftArm
+guid: {a: 5711429534928123948, b: 8245576831024363433}
+enabled: true
+localPosition: {x: 0, y: 11.57108, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9905146, x: -0.136156, y: 0.005901968, z: 0.01753438}
+parent: {localId: 18}
+children:
+  - {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: alien:LeftForeArm
+guid: {a: 3262255693942844916, b: 17641297458028212664}
+enabled: true
+localPosition: {x: 1.776357e-15, y: 24.25666, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999997, x: 2.469823e-07, y: -0.0008010085, z: -3.1616e-07}
+parent: {localId: 19}
+children:
+  - {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: alien:LeftHand
+guid: {a: 10902927087088773026, b: 465353651888006332}
+enabled: true
+localPosition: {x: 3.552714e-15, y: 16.83134, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9934475, x: -0.009349298, y: 0.04275376, z: -0.1055784}
+parent: {localId: 20}
+children:
+  - {localId: 22}
+  - {localId: 26}
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: alien:LeftHandThumb1
+guid: {a: 17745992809105459270, b: 1558731681197516706}
+enabled: true
+localPosition: {x: -1.955685, y: 4.127536, z: 1.186633}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9046952, x: 0.2441334, y: 0.03900371, z: 0.346993}
+parent: {localId: 21}
+children:
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: alien:LeftHandThumb2
+guid: {a: 885115313162557517, b: 8318846162453342350}
+enabled: true
+localPosition: {x: 0.1337217, y: 3.772868, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999496, x: 0.0001613316, y: 0.003593352, z: 0.009370632}
+parent: {localId: 22}
+children:
+  - {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: alien:LeftHandThumb3
+guid: {a: 10469990107677112367, b: 11222431782018725790}
+enabled: true
+localPosition: {x: 0.1557451, y: 2.871784, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9960982, x: 6.725818e-05, y: -0.001957438, z: -0.08823065}
+parent: {localId: 23}
+children:
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: alien:LeftHandThumb4
+guid: {a: 1315078132263581493, b: 12847365613747705262}
+enabled: true
+localPosition: {x: -0.2894668, y: 2.350893, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: 1e-15, z: 1e-15}
+parent: {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: alien:LeftHandIndex1
+guid: {a: 1387951710823174038, b: 16305202043979527600}
+enabled: true
+localPosition: {x: -2.437044, y: 11.31317, z: 0.1105008}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9942774, x: 0.00518104, y: -0.003599046, z: 0.1066428}
+parent: {localId: 21}
+children:
+  - {localId: 27}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: alien:LeftHandIndex2
+guid: {a: 12055167130162519779, b: 7276369846264352420}
+enabled: true
+localPosition: {x: 0.003488793, y: 2.235856, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999972, x: 7.68376e-08, y: 8.919013e-05, z: 0.002353388}
+parent: {localId: 26}
+children:
+  - {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: alien:LeftHandIndex3
+guid: {a: 12557946598506765383, b: 4554303881303309699}
+enabled: true
+localPosition: {x: 0.01323016, y: 2.10448, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999726, x: 2.954754e-08, y: 8.574195e-05, z: -0.007398908}
+parent: {localId: 27}
+children:
+  - {localId: 29}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: alien:LeftHandIndex4
+guid: {a: 13206698967183884146, b: 14422135325676213126}
+enabled: true
+localPosition: {x: -0.01671895, y: 1.958723, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: 1e-15}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: alien:LeftHandRing1
+guid: {a: 17892720337679036377, b: 4886867646648844977}
+enabled: true
+localPosition: {x: 0.8123479, y: 11.38688, z: -0.02229635}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9948834, x: 0.004785392, y: 0.0001638011, z: 0.1009164}
+parent: {localId: 21}
+children:
+  - {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &31
+name: alien:LeftHandRing2
+guid: {a: 11622452032883441916, b: 6414289559321178020}
+enabled: true
+localPosition: {x: -0.02207534, y: 2.212658, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999943, x: 2.593777e-06, y: -0.000407964, z: 0.003338396}
+parent: {localId: 30}
+children:
+  - {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: alien:LeftHandRing3
+guid: {a: 12126175497929704802, b: 11982387272656565639}
+enabled: true
+localPosition: {x: -0.006463988, y: 1.963237, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999566, x: -3.954517e-07, y: -3.391919e-05, z: 0.009316643}
+parent: {localId: 31}
+children:
+  - {localId: 33}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &33
+name: alien:LeftHandRing4
+guid: {a: 13276976630785920491, b: 5299994149830895542}
+enabled: true
+localPosition: {x: 0.02853933, y: 1.859769, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: 1e-15, z: -1e-15}
+parent: {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: alien:RightShoulder
+guid: {a: 7153149939141971604, b: 52876662788634250}
+enabled: true
+localPosition: {x: -5.55961, y: 12.01749, z: -0.2128205}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.4191601, x: 0.5525182, y: -0.4353844, z: 0.5739938}
+parent: {localId: 14}
+children:
+  - {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &35
+name: alien:RightArm
+guid: {a: 5570771821202425069, b: 6377660021515333008}
+enabled: true
+localPosition: {x: -3.552714e-15, y: 11.57108, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9905162, x: -0.1360376, y: -0.005602736, z: -0.01844123}
+parent: {localId: 34}
+children:
+  - {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &36
+name: alien:RightForeArm
+guid: {a: 15079875403201773872, b: 11028903771330441637}
+enabled: true
+localPosition: {x: 1.776357e-15, y: 24.25479, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999997, x: 6.103657e-08, y: 0.0007835299, z: 2.218631e-07}
+parent: {localId: 35}
+children:
+  - {localId: 37}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &37
+name: alien:RightHand
+guid: {a: 13928602300957324106, b: 6998383602307437998}
+enabled: true
+localPosition: {x: 1.776357e-15, y: 16.83029, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9936106, x: -0.01013928, y: -0.039402, z: 0.1052746}
+parent: {localId: 36}
+children:
+  - {localId: 38}
+  - {localId: 42}
+  - {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: alien:RightHandThumb1
+guid: {a: 9388007477254242039, b: 7620337400186571952}
+enabled: true
+localPosition: {x: 1.878109, y: 4.149487, z: 1.107972}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9064975, x: 0.247637, y: -0.03752854, z: -0.3398967}
+parent: {localId: 37}
+children:
+  - {localId: 39}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: alien:RightHandThumb2
+guid: {a: 6506790402990412751, b: 5481201290179261824}
+enabled: true
+localPosition: {x: -0.0967333, y: 3.748797, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9995373, x: 1.523773e-06, y: 0.0004192038, z: 0.03041417}
+parent: {localId: 38}
+children:
+  - {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &40
+name: alien:RightHandThumb3
+guid: {a: 12918545088597334792, b: 10359845206718642845}
+enabled: true
+localPosition: {x: 0.101693, y: 2.900515, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9998264, x: 1.293288e-05, y: 0.0008045273, z: -0.01861705}
+parent: {localId: 39}
+children:
+  - {localId: 41}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &41
+name: alien:RightHandThumb4
+guid: {a: 4992824961706847607, b: 2495703076856671899}
+enabled: true
+localPosition: {x: -0.004959682, y: 2.285427, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: -0, z: 0}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: alien:RightHandIndex1
+guid: {a: 17672820904629437692, b: 2988204446640175235}
+enabled: true
+localPosition: {x: 2.425609, y: 11.2919, z: 0.1368765}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.994606, x: 0.006327064, y: 0.00338105, z: -0.1034768}
+parent: {localId: 37}
+children:
+  - {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: alien:RightHandIndex2
+guid: {a: 10398793557071577306, b: 14334895733495997840}
+enabled: true
+localPosition: {x: 0.009620621, y: 2.277787, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999888, x: -1.525593e-07, y: -2.301315e-05, z: -0.004737214}
+parent: {localId: 42}
+children:
+  - {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &44
+name: alien:RightHandIndex3
+guid: {a: 5422692838452882499, b: 743727761309808525}
+enabled: true
+localPosition: {x: -0.01118917, y: 2.129333, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999954, x: -5.375583e-07, y: 8.08169e-05, z: 0.003034465}
+parent: {localId: 43}
+children:
+  - {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &45
+name: alien:RightHandIndex4
+guid: {a: 6432269060418317397, b: 1912125519297912215}
+enabled: true
+localPosition: {x: 0.001568552, y: 1.97751, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: -1e-15}
+parent: {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: alien:RightHandRing1
+guid: {a: 13134729990761595436, b: 15511706156413443980}
+enabled: true
+localPosition: {x: -0.8085363, y: 11.27825, z: -0.02006069}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9949615, x: 0.006106077, y: 0.00127842, z: -0.1000636}
+parent: {localId: 37}
+children:
+  - {localId: 47}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: alien:RightHandRing2
+guid: {a: 9243341779760851203, b: 14269830401290721210}
+enabled: true
+localPosition: {x: 0.02442607, y: 2.19754, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999983, x: 4.310923e-06, y: 0.0004710381, z: -0.001809124}
+parent: {localId: 46}
+children:
+  - {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: alien:RightHandRing3
+guid: {a: 6865237485826771240, b: 5595156551962312113}
+enabled: true
+localPosition: {x: 0.0149211, y: 1.990593, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9998979, x: 1.397349e-06, y: -0.0001513602, z: -0.01428902}
+parent: {localId: 47}
+children:
+  - {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: alien:RightHandRing4
+guid: {a: 7440395540074431974, b: 2762505652600443795}
+enabled: true
+localPosition: {x: -0.03934716, y: 1.862764, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: -1e-15}
+parent: {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: alien:LeftUpLeg
+guid: {a: 2471836648751217446, b: 580015036583785621}
+enabled: true
+localPosition: {x: 7.06457, y: -4.992699, z: -0.5639689}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.0006793989, x: 0.0006004359, y: -0.001664097, z: 0.9999982}
+parent: {localId: 11}
+children:
+  - {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: alien:LeftLeg
+guid: {a: 8953598026938123166, b: 16508647070485589414}
+enabled: true
+localPosition: {x: -1e-15, y: 39.60734, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9996663, x: -0.02583253, y: -2.695282e-05, z: 5.73941e-06}
+parent: {localId: 50}
+children:
+  - {localId: 52}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: alien:LeftFoot
+guid: {a: 8597341617450061047, b: 8391716236795673277}
+enabled: true
+localPosition: {x: 0, y: 39.35463, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8685282, x: 0.4906512, y: 0.05699626, z: -0.04088528}
+parent: {localId: 51}
+children:
+  - {localId: 53}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &53
+name: alien:LeftToeBase
+guid: {a: 8376881345867930498, b: 3036120928036407955}
+enabled: true
+localPosition: {x: 0, y: 12.00464, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9607379, x: 0.2772348, y: 0.01068142, z: -0.003082257}
+parent: {localId: 52}
+children:
+  - {localId: 54}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &54
+name: alien:LeftToe_End
+guid: {a: 885935031802745763, b: 5206705595816470450}
+enabled: true
+localPosition: {x: 0, y: 4.766608, z: -1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: -1e-15}
+parent: {localId: 53}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &55
+name: alien:RightUpLeg
+guid: {a: 2542195979331206575, b: 14170306082540586893}
+enabled: true
+localPosition: {x: -7.06457, y: -4.992699, z: -0.3696221}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.0006430523, x: -0.0007086288, y: 0.001392056, z: 0.9999986}
+parent: {localId: 11}
+children:
+  - {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: alien:RightLeg
+guid: {a: 3337138406642146437, b: 1883967838214480039}
+enabled: true
+localPosition: {x: 0, y: 39.61872, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9994071, x: -0.03443132, y: -2.677085e-05, z: -1.636839e-05}
+parent: {localId: 55}
+children:
+  - {localId: 57}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &57
+name: alien:RightFoot
+guid: {a: 18393233117313491022, b: 14938590669754940825}
+enabled: true
+localPosition: {x: 1e-15, y: 39.38826, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8631006, x: 0.5003971, y: -0.05497171, z: 0.04047255}
+parent: {localId: 56}
+children:
+  - {localId: 58}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &58
+name: alien:RightToeBase
+guid: {a: 4921383280179488828, b: 2018281411611284390}
+enabled: true
+localPosition: {x: 0, y: 12.20914, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9622789, x: 0.2714904, y: -0.01700873, z: 0.00479871}
+parent: {localId: 57}
+children:
+  - {localId: 59}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &59
+name: alien:RightToe_End
+guid: {a: 740219432545917513, b: 13311411189561524151}
+enabled: true
+localPosition: {x: -1e-15, y: 4.684492, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: 1e-15}
+parent: {localId: 58}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &60
+name: ""
+guid: {a: 7948109125296497564, b: 1125902972400907694}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 61}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &61
+name: ""
+guid: {a: 4198594360520875876, b: 11215071753643372440}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 60}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &62
+name: ""
+guid: {a: 93934353524164448, b: 11563405144004847283}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 63}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &63
+name: ""
+guid: {a: 15224142844157184915, b: 14087037695369787318}
+enabled: true
+localPosition: {x: -4, y: 0, z: 0}
+localScale: {x: 0.1, y: 0.1, z: 0.1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 62}
+children:
+  - {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &64
+name: SkeletonAndRenderRoot
+guid: {a: 16521435691867757426, b: 17630970300529144454}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 63}
+children:
+  - {localId: 65}
+  - {localId: 66}
+  - {localId: 67}
+  - {localId: 68}
+  - {localId: 69}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &65
+name: alien:default1
+guid: {a: 15439590275549046005, b: 10878234002156966059}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &66
+name: alien:Eyelashes
+guid: {a: 8521931304907212198, b: 9493638469187961521}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &67
+name: alien:Body
+guid: {a: 381809456325143922, b: 8505405301547366285}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &68
+name: alien:Bottoms
+guid: {a: 2900509425843186379, b: 7032119241551841687}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &69
+name: alien:Hips
+guid: {a: 17529501016505096730, b: 6606782805230410641}
+enabled: true
+localPosition: {x: 0.006362747, y: 91.40227, z: 0.4311092}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9999998, x: -9.073474e-06, y: 1.968065e-05, z: -0.0006594751}
+parent: {localId: 64}
+children:
+  - {localId: 70}
+  - {localId: 108}
+  - {localId: 113}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &70
+name: alien:Spine
+guid: {a: 1820841431432577218, b: 14801851863256608662}
+enabled: true
+localPosition: {x: 0, y: 8.976791, z: -1.192163}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9978221, x: -0.06595916, y: -6.31422e-05, z: 0.00065674}
+parent: {localId: 69}
+children:
+  - {localId: 71}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &71
+name: alien:Spine1
+guid: {a: 14431822708724830329, b: 13089971000472076732}
+enabled: true
+localPosition: {x: 0, y: 10.56488, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -7.479926e-08, y: 1.320616e-13, z: -6.705716e-13}
+parent: {localId: 70}
+children:
+  - {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &72
+name: alien:Spine2
+guid: {a: 667701546130099716, b: 14342941788255269559}
+enabled: true
+localPosition: {x: 0, y: 12.07414, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: -0, z: -1e-15}
+parent: {localId: 71}
+children:
+  - {localId: 73}
+  - {localId: 76}
+  - {localId: 92}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &73
+name: alien:Neck
+guid: {a: 3047446520340122156, b: 537943874043459769}
+enabled: true
+localPosition: {x: 0, y: 13.58342, z: 1.787292e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9978217, x: 0.0659683, y: 1e-15, z: -1e-15}
+parent: {localId: 72}
+children:
+  - {localId: 74}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &74
+name: alien:Head
+guid: {a: 15151245849594167596, b: 17417009832098029217}
+enabled: true
+localPosition: {x: 0, y: 7.144882, z: 1.96637}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 1e-15}
+parent: {localId: 73}
+children:
+  - {localId: 75}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &75
+name: alien:HeadTop_End
+guid: {a: 11259599727303360792, b: 15959421176276421020}
+enabled: true
+localPosition: {x: 0, y: 33.74763, z: 9.287814}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 74}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &76
+name: alien:LeftShoulder
+guid: {a: 13135868341057366285, b: 12028458338800685228}
+enabled: true
+localPosition: {x: 5.55961, y: 12.01622, z: -0.2032723}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.4194717, x: -0.5530564, y: -0.4349625, z: 0.5735676}
+parent: {localId: 72}
+children:
+  - {localId: 77}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &77
+name: alien:LeftArm
+guid: {a: 670581069217380685, b: 16400601901850464129}
+enabled: true
+localPosition: {x: 0, y: 11.57108, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9905146, x: -0.136156, y: 0.005901968, z: 0.01753438}
+parent: {localId: 76}
+children:
+  - {localId: 78}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &78
+name: alien:LeftForeArm
+guid: {a: 9243107780679118009, b: 15693895473142885264}
+enabled: true
+localPosition: {x: 1.776357e-15, y: 24.25666, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999997, x: 2.469823e-07, y: -0.0008010085, z: -3.1616e-07}
+parent: {localId: 77}
+children:
+  - {localId: 79}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &79
+name: alien:LeftHand
+guid: {a: 8955513273445369013, b: 3090211692758885798}
+enabled: true
+localPosition: {x: 3.552714e-15, y: 16.83134, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9934475, x: -0.009349298, y: 0.04275376, z: -0.1055784}
+parent: {localId: 78}
+children:
+  - {localId: 80}
+  - {localId: 84}
+  - {localId: 88}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &80
+name: alien:LeftHandThumb1
+guid: {a: 7729316596163942422, b: 12777562520205304507}
+enabled: true
+localPosition: {x: -1.955685, y: 4.127536, z: 1.186633}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9046952, x: 0.2441334, y: 0.03900371, z: 0.346993}
+parent: {localId: 79}
+children:
+  - {localId: 81}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &81
+name: alien:LeftHandThumb2
+guid: {a: 5350894994798279100, b: 2573361256712236165}
+enabled: true
+localPosition: {x: 0.1337217, y: 3.772868, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999496, x: 0.0001613316, y: 0.003593352, z: 0.009370632}
+parent: {localId: 80}
+children:
+  - {localId: 82}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &82
+name: alien:LeftHandThumb3
+guid: {a: 12700787871123101868, b: 7133080626967964857}
+enabled: true
+localPosition: {x: 0.1557451, y: 2.871784, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9960982, x: 6.725818e-05, y: -0.001957438, z: -0.08823065}
+parent: {localId: 81}
+children:
+  - {localId: 83}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &83
+name: alien:LeftHandThumb4
+guid: {a: 1823757142623612239, b: 263882777036677306}
+enabled: true
+localPosition: {x: -0.2894668, y: 2.350893, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: 1e-15, z: 1e-15}
+parent: {localId: 82}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &84
+name: alien:LeftHandIndex1
+guid: {a: 3766261373548961281, b: 3997339827443755657}
+enabled: true
+localPosition: {x: -2.437044, y: 11.31317, z: 0.1105008}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9942774, x: 0.00518104, y: -0.003599046, z: 0.1066428}
+parent: {localId: 79}
+children:
+  - {localId: 85}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &85
+name: alien:LeftHandIndex2
+guid: {a: 3405698758784936994, b: 829802840043285633}
+enabled: true
+localPosition: {x: 0.003488793, y: 2.235856, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999972, x: 7.68376e-08, y: 8.919013e-05, z: 0.002353388}
+parent: {localId: 84}
+children:
+  - {localId: 86}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &86
+name: alien:LeftHandIndex3
+guid: {a: 1605273033440514197, b: 8583232552151682691}
+enabled: true
+localPosition: {x: 0.01323016, y: 2.10448, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999726, x: 2.954754e-08, y: 8.574195e-05, z: -0.007398908}
+parent: {localId: 85}
+children:
+  - {localId: 87}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &87
+name: alien:LeftHandIndex4
+guid: {a: 1532709462585108027, b: 1669413209794105011}
+enabled: true
+localPosition: {x: -0.01671895, y: 1.958723, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: 1e-15}
+parent: {localId: 86}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &88
+name: alien:LeftHandRing1
+guid: {a: 17964000810889421610, b: 14498011155907672192}
+enabled: true
+localPosition: {x: 0.8123479, y: 11.38688, z: -0.02229635}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9948834, x: 0.004785392, y: 0.0001638011, z: 0.1009164}
+parent: {localId: 79}
+children:
+  - {localId: 89}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &89
+name: alien:LeftHandRing2
+guid: {a: 11260277302508226627, b: 2396338745036102589}
+enabled: true
+localPosition: {x: -0.02207534, y: 2.212658, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999943, x: 2.593777e-06, y: -0.000407964, z: 0.003338396}
+parent: {localId: 88}
+children:
+  - {localId: 90}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &90
+name: alien:LeftHandRing3
+guid: {a: 2039750420966197044, b: 1030939798864094090}
+enabled: true
+localPosition: {x: -0.006463988, y: 1.963237, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999566, x: -3.954517e-07, y: -3.391919e-05, z: 0.009316643}
+parent: {localId: 89}
+children:
+  - {localId: 91}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &91
+name: alien:LeftHandRing4
+guid: {a: 741400578375351295, b: 17686067368674071691}
+enabled: true
+localPosition: {x: 0.02853933, y: 1.859769, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: 1e-15, z: -1e-15}
+parent: {localId: 90}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &92
+name: alien:RightShoulder
+guid: {a: 14718227270081581667, b: 16291885351922566317}
+enabled: true
+localPosition: {x: -5.55961, y: 12.01749, z: -0.2128205}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.4191601, x: 0.5525182, y: -0.4353844, z: 0.5739938}
+parent: {localId: 72}
+children:
+  - {localId: 93}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &93
+name: alien:RightArm
+guid: {a: 17964300277486790705, b: 13280337508694335416}
+enabled: true
+localPosition: {x: -3.552714e-15, y: 11.57108, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9905162, x: -0.1360376, y: -0.005602736, z: -0.01844123}
+parent: {localId: 92}
+children:
+  - {localId: 94}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &94
+name: alien:RightForeArm
+guid: {a: 10901922122420330007, b: 17329885404902631614}
+enabled: true
+localPosition: {x: 1.776357e-15, y: 24.25479, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999997, x: 6.103657e-08, y: 0.0007835299, z: 2.218631e-07}
+parent: {localId: 93}
+children:
+  - {localId: 95}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &95
+name: alien:RightHand
+guid: {a: 16377746542792290123, b: 5775223044513893032}
+enabled: true
+localPosition: {x: 1.776357e-15, y: 16.83029, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9936106, x: -0.01013928, y: -0.039402, z: 0.1052746}
+parent: {localId: 94}
+children:
+  - {localId: 96}
+  - {localId: 100}
+  - {localId: 104}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &96
+name: alien:RightHandThumb1
+guid: {a: 12412220789841980053, b: 2031156829814816690}
+enabled: true
+localPosition: {x: 1.878109, y: 4.149487, z: 1.107972}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9064975, x: 0.247637, y: -0.03752854, z: -0.3398967}
+parent: {localId: 95}
+children:
+  - {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &97
+name: alien:RightHandThumb2
+guid: {a: 7512505443969057338, b: 17761290102119692967}
+enabled: true
+localPosition: {x: -0.0967333, y: 3.748797, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9995373, x: 1.523773e-06, y: 0.0004192038, z: 0.03041417}
+parent: {localId: 96}
+children:
+  - {localId: 98}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &98
+name: alien:RightHandThumb3
+guid: {a: 2902271791294775071, b: 2679777764548187813}
+enabled: true
+localPosition: {x: 0.101693, y: 2.900515, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9998264, x: 1.293288e-05, y: 0.0008045273, z: -0.01861705}
+parent: {localId: 97}
+children:
+  - {localId: 99}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &99
+name: alien:RightHandThumb4
+guid: {a: 2110897784944762666, b: 17342688336552302218}
+enabled: true
+localPosition: {x: -0.004959682, y: 2.285427, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: -0, z: 0}
+parent: {localId: 98}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &100
+name: alien:RightHandIndex1
+guid: {a: 9171596241927129612, b: 1314473663600290188}
+enabled: true
+localPosition: {x: 2.425609, y: 11.2919, z: 0.1368765}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.994606, x: 0.006327064, y: 0.00338105, z: -0.1034768}
+parent: {localId: 95}
+children:
+  - {localId: 101}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &101
+name: alien:RightHandIndex2
+guid: {a: 5928678192041125202, b: 10480336281899818667}
+enabled: true
+localPosition: {x: 0.009620621, y: 2.277787, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999888, x: -1.525593e-07, y: -2.301315e-05, z: -0.004737214}
+parent: {localId: 100}
+children:
+  - {localId: 102}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &102
+name: alien:RightHandIndex3
+guid: {a: 18180892932349343863, b: 5982470527813648275}
+enabled: true
+localPosition: {x: -0.01118917, y: 2.129333, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999954, x: -5.375583e-07, y: 8.08169e-05, z: 0.003034465}
+parent: {localId: 101}
+children:
+  - {localId: 103}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &103
+name: alien:RightHandIndex4
+guid: {a: 9458713507339037748, b: 11348030596869472415}
+enabled: true
+localPosition: {x: 0.001568552, y: 1.97751, z: 2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: -1e-15}
+parent: {localId: 102}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &104
+name: alien:RightHandRing1
+guid: {a: 5855040771020144518, b: 15468473624428771716}
+enabled: true
+localPosition: {x: -0.8085363, y: 11.27825, z: -0.02006069}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9949615, x: 0.006106077, y: 0.00127842, z: -0.1000636}
+parent: {localId: 95}
+children:
+  - {localId: 105}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &105
+name: alien:RightHandRing2
+guid: {a: 17531838304811660244, b: 15222575990622431627}
+enabled: true
+localPosition: {x: 0.02442607, y: 2.19754, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999983, x: 4.310923e-06, y: 0.0004710381, z: -0.001809124}
+parent: {localId: 104}
+children:
+  - {localId: 106}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &106
+name: alien:RightHandRing3
+guid: {a: 1751524860338412499, b: 8799268790326591117}
+enabled: true
+localPosition: {x: 0.0149211, y: 1.990593, z: -2.842171e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9998979, x: 1.397349e-06, y: -0.0001513602, z: -0.01428902}
+parent: {localId: 105}
+children:
+  - {localId: 107}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &107
+name: alien:RightHandRing4
+guid: {a: 11620137840196374133, b: 860445782547736993}
+enabled: true
+localPosition: {x: -0.03934716, y: 1.862764, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: -1e-15}
+parent: {localId: 106}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &108
+name: alien:LeftUpLeg
+guid: {a: 10182292147931315048, b: 5961963159278079628}
+enabled: true
+localPosition: {x: 7.06457, y: -4.992699, z: -0.5639689}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.0006793989, x: 0.0006004359, y: -0.001664097, z: 0.9999982}
+parent: {localId: 69}
+children:
+  - {localId: 109}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &109
+name: alien:LeftLeg
+guid: {a: 5711415421027739415, b: 10377257736144193457}
+enabled: true
+localPosition: {x: -1e-15, y: 39.60734, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9996663, x: -0.02583253, y: -2.695282e-05, z: 5.73941e-06}
+parent: {localId: 108}
+children:
+  - {localId: 110}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &110
+name: alien:LeftFoot
+guid: {a: 7154233674479320347, b: 1300207160289621127}
+enabled: true
+localPosition: {x: 0, y: 39.35463, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8685282, x: 0.4906512, y: 0.05699626, z: -0.04088528}
+parent: {localId: 109}
+children:
+  - {localId: 111}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &111
+name: alien:LeftToeBase
+guid: {a: 18104773833538836528, b: 14694823535193529278}
+enabled: true
+localPosition: {x: 0, y: 12.00464, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9607379, x: 0.2772348, y: 0.01068142, z: -0.003082257}
+parent: {localId: 110}
+children:
+  - {localId: 112}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &112
+name: alien:LeftToe_End
+guid: {a: 13495371649352294264, b: 587693994092982184}
+enabled: true
+localPosition: {x: 0, y: 4.766608, z: -1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: -1e-15}
+parent: {localId: 111}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &113
+name: alien:RightUpLeg
+guid: {a: 15799296695673996229, b: 4692863268210524046}
+enabled: true
+localPosition: {x: -7.06457, y: -4.992699, z: -0.3696221}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.0006430523, x: -0.0007086288, y: 0.001392056, z: 0.9999986}
+parent: {localId: 69}
+children:
+  - {localId: 114}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &114
+name: alien:RightLeg
+guid: {a: 8665956440685336227, b: 5378006199634724232}
+enabled: true
+localPosition: {x: 0, y: 39.61872, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9994071, x: -0.03443132, y: -2.677085e-05, z: -1.636839e-05}
+parent: {localId: 113}
+children:
+  - {localId: 115}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &115
+name: alien:RightFoot
+guid: {a: 6722265600394051738, b: 13022239747775196073}
+enabled: true
+localPosition: {x: 1e-15, y: 39.38826, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8631006, x: 0.5003971, y: -0.05497171, z: 0.04047255}
+parent: {localId: 114}
+children:
+  - {localId: 116}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &116
+name: alien:RightToeBase
+guid: {a: 3911619667730133385, b: 14343156309201847948}
+enabled: true
+localPosition: {x: 0, y: 12.20914, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9622789, x: 0.2714904, y: -0.01700873, z: 0.00479871}
+parent: {localId: 115}
+children:
+  - {localId: 117}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &117
+name: alien:RightToe_End
+guid: {a: 2616547953868657214, b: 7109971277088343466}
+enabled: true
+localPosition: {x: -1e-15, y: 4.684492, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: -1e-15, z: 1e-15}
+parent: {localId: 116}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &118
+name: ""
+guid: {a: 16879735315683982342, b: 8008360110299613592}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !IFTransform2d &119
+name: ""
+guid: {a: 7011599078421314961, b: 10691722213184214961}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 120}
+children:
+  - {localId: 121}
+  - {localId: 122}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -1
+--- !IFTransform2d &120
+name: ""
+guid: {a: 3912603199197841552, b: 16627825228849707436}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: 0
+--- !IFTransform2d &121
+name: ""
+guid: {a: 8521784964595876688, b: 16249753243832794783}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2
+--- !IFTransform2d &122
+name: ""
+guid: {a: 6504456404822616949, b: 9809122011495558792}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -3
